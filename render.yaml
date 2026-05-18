@@ -1,7 +1,21 @@
 services:
+
   - type: web
     name: jarvis-dashboard
     env: python
     plan: free
+
     buildCommand: pip install -r requirements.txt
+
     startCommand: gunicorn crypto_dashboard:app --bind 0.0.0.0:$PORT
+
+  - type: cron
+    name: jarvis-auto-engine
+    env: python
+    plan: free
+
+    schedule: "*/5 * * * *"
+
+    buildCommand: pip install -r requirements.txt
+
+    startCommand: python cloud_engine_runner.py
