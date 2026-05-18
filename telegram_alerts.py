@@ -1,60 +1,44 @@
 # telegram_alerts.py
 
+import os
 import requests
 
-# =========================
-# TELEGRAM CONFIG
-# =========================
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
-BOT_TOKEN = "8969316010:AAEijoYi-IY65XKqMLzWwpNa5rEoeVUuvr0"
-CHAT_ID = "268925092"
-# =========================
-# SEND MESSAGE
-# =========================
+
+def telegram_ready():
+    return BOT_TOKEN != "" and CHAT_ID != ""
+
 
 def send_telegram_message(message):
+    if not telegram_ready():
+        print("Telegram non configurato nel cloud.")
+        return None
 
     try:
-
-        url = (
-            f"https://api.telegram.org/bot"
-            f"{BOT_TOKEN}/sendMessage"
-        )
+        url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
         payload = {
-
             "chat_id": CHAT_ID,
             "text": message,
             "parse_mode": "Markdown"
-
         }
 
         response = requests.post(
-
             url,
             json=payload,
             timeout=10
-
         )
 
-        print(response.json())
         return response.json()
 
     except Exception as e:
-
-        print(
-            "Telegram Error:",
-            e
-        )
-
+        print("Telegram Error:", e)
         return None
 
-# =========================
-# FORMAT SIGNAL
-# =========================
 
 def format_signal_message(signal):
-
     return f"""
 🚨 *JARVIS AI SIGNAL*
 
@@ -74,47 +58,77 @@ def format_signal_message(signal):
 {signal.get('reason', 'N/A')}
 """
 
-# =========================
-# SEND TOP SIGNALS
-# =========================
 
 def send_top_signals(signals):
-
     if len(signals) == 0:
         return
 
-    top = signals[:3]
+    for signal in signals[:3]:
+        message = format_signal_message(signal)
+        send_telegram_message(message)
 
-    for signal in top:
 
-        message = format_signal_message(
-            signal
-        )
+def send_trade_opened(trade):
+    message = f"""
+🟢 *JARVIS TRADE OPENED*
 
-        send_telegram_message(
-            message
-        )
+💎 Coin:
+{trade.get('symbol', 'UNKNOWN')}
 
-# =========================
-# TEST
-# =========================
+📊 Source:
+{trade.get('source', 'UNKNOWN')}
+
+🧠 Score:
+{trade.get('score', 0)}
+
+💵 Entry:
+{trade.get('entry_price', 0)}
+
+🎯 Take Profit:
+{trade.get('take_profit', 0)}%
+
+🛑 Stop Loss:
+{trade.get('stop_loss', 0)}%
+"""
+
+    send_telegram_message(message)
+
+
+def send_trade_closed(trade):
+    message = f"""
+🔴 *JARVIS TRADE CLOSED*
+
+💎 Coin:
+{trade.get('symbol', 'UNKNOWN')}
+
+📌 Result:
+{trade.get('close_reason', 'UNKNOWN')}
+
+💵 Entry:
+{trade.get('entry_price', 0)}
+
+💰 Close:
+{trade.get('close_price', 0)}
+
+📈 Final PNL:
+{trade.get('final_pnl', 0)}%
+
+⏱ Duration:
+{trade.get('duration_minutes', 0)} min
+"""
+
+    send_telegram_message(message)
+
+
+def send_cloud_status(message):
+    final_message = f"""
+☁️ *JARVIS CLOUD STATUS*
+
+{message}
+"""
+
+    send_telegram_message(final_message)
+
 
 if __name__ == "__main__":
-
-    fake_signal = {
-
-        "symbol": "SOL",
-        "score": 92,
-        "change_24h": 2.4,
-        "source": "DEX",
-        "reason": "Liquidity + momentum"
-
-    }
-
-    msg = format_signal_message(
-        fake_signal
-    )
-
-    print(msg)
-
-    send_telegram_message(msg)
+    send_cloud_status("Telegram cloud alerts online ✅")
