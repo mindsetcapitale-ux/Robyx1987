@@ -1,14 +1,24 @@
 # crypto_dashboard.py
-# JARVIS DASHBOARD + PAPER TRADING VIEW
+# JARVIS CLOUD CONTROL PANEL
 
-from flask import Flask, render_template_string
+from flask import Flask, render_template_string, request
 import datetime
 import json
 import os
 
+from unified_trading_engine import run_unified_engine
+
 TRADING_FILE = "unified_paper_trades.json"
 
+CONTROL_KEY = os.environ.get(
+    "JARVIS_CONTROL_KEY",
+    "jarvis123"
+)
+
 app = Flask(__name__)
+
+last_run_status = "Mai avviato"
+last_run_time = "-"
 
 
 def load_trading_data():
@@ -47,7 +57,7 @@ HTML = """
 <!DOCTYPE html>
 <html>
 <head>
-<title>JARVIS CONTROL PANEL</title>
+<title>JARVIS CLOUD CONTROL</title>
 
 <style>
 body {
@@ -87,6 +97,17 @@ body {
     border: 1px solid rgba(0,234,255,0.12);
 }
 
+.button {
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 14px;
+    background: #00eaff;
+    color: #050816;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
 .stat {
     font-size: 18px;
     margin-bottom: 10px;
@@ -96,7 +117,7 @@ body {
 <script>
 setInterval(() => {
     location.reload();
-}, 15000);
+}, 20000);
 </script>
 
 </head>
@@ -104,9 +125,15 @@ setInterval(() => {
 <body>
 
 <div class="card">
-    <div class="title">🧠 JARVIS CONTROL PANEL</div>
-    <p class="green">ONLINE • PAPER TRADING MONITOR ACTIVE</p>
+    <div class="title">🧠 JARVIS CLOUD CONTROL</div>
+    <p class="green">ONLINE • REMOTE CONTROL ACTIVE</p>
     <p>Last Update: {{ update_time }}</p>
+    <p>Last Engine Run: {{ last_run_time }}</p>
+    <p>Status: {{ last_run_status }}</p>
+
+    <a class="button" href="/run-engine?key={{ control_key }}">
+        🚀 AVVIA JARVIS ENGINE
+    </a>
 </div>
 
 <div class="card">
@@ -175,8 +202,39 @@ def home():
         stats=data.get("stats", {}),
         open_trades=data.get("open_trades", []),
         closed_trades=data.get("closed_trades", [])[-10:],
-        update_time=str(datetime.datetime.now())
+        update_time=str(datetime.datetime.now()),
+        last_run_status=last_run_status,
+        last_run_time=last_run_time,
+        control_key=CONTROL_KEY
     )
+
+
+@app.route("/run-engine")
+def run_engine_remote():
+    global last_run_status
+    global last_run_time
+
+    key = request.args.get("key", "")
+
+    if key != CONTROL_KEY:
+        return "ACCESS DENIED", 403
+
+    try:
+        last_run_status = "RUNNING"
+        last_run_time = str(datetime.datetime.now())
+
+        run_unified_engine()
+
+        last_run_status = "COMPLETED"
+        last_run_time = str(datetime.datetime.now())
+
+        return "JARVIS ENGINE COMPLETATO"
+
+    except Exception as e:
+        last_run_status = f"ERROR: {e}"
+        last_run_time = str(datetime.datetime.now())
+
+        return f"ERRORE: {e}", 500
 
 
 if __name__ == "__main__":
