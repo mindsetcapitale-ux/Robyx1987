@@ -1,0 +1,70 @@
+2026-05-16 05:13:57 | Storj (STORJ) | Prezzo ingresso: $0.135237 | Score 14 | 24H +25.62% | Vol/MCap 804.53%
+2026-05-16 05:13:57 | PONKE (PONKE) | Prezzo ingresso: $0.04193757 | Score 14 | 24H +23.81% | Vol/MCap 87.09%
+2026-05-16 05:13:57 | BankrCoin (BNKR) | Prezzo ingresso: $0.0005233 | Score 14 | 24H +21.74% | Vol/MCap 31.66%
+2026-05-16 05:13:57 | Recall (RECALL) | Prezzo ingresso: $0.068746 | Score 14 | 24H +16.65% | Vol/MCap 92.45%
+2026-05-16 05:13:57 | AI Rig Complex (ARC) | Prezzo ingresso: $0.075183 | Score 14 | 24H +31.64% | Vol/MCap 18.55%
+2026-05-16 05:13:57 | Orca (ORCA) | Prezzo ingresso: $1.55 | Score 12 | 24H +7.89% | Vol/MCap 49.06%
+2026-05-16 05:13:57 | Irys (IRYS) | Prezzo ingresso: $0.056119 | Score 10 | 24H +9.54% | Vol/MCap 89.81%
+2026-05-16 05:13:57 | Falcon Finance (FF) | Prezzo ingresso: $0.086798 | Score 10 | 24H +10.26% | Vol/MCap 31.25%
+2026-05-16 05:13:57 | ChainGPT (CGPT) | Prezzo ingresso: $0.04125282 | Score 10 | 24H +4.15% | Vol/MCap 98.54%
+2026-05-16 05:13:57 | ZEROBASE (ZBT) | Prezzo ingresso: $0.160685 | Score 10 | 24H +4.67% | Vol/MCap 77.44%
+2026-05-16 11:29:33 | Paris Saint-Germain Fan Token (PSG) | Entry $1.084 | Score 25 | 24H 2.88% | Vol/MCap 184.55%
+2026-05-16 11:29:33 | Royal Euro (REUR) | Entry $1.16 | Score 22 | 24H 0.01% | Vol/MCap 345.91%
+2026-05-16 11:29:33 | ZEROBASE (ZBT) | Entry $0.160752 | Score 22 | 24H 6.45% | Vol/MCap 110.88%
+2026-05-16 11:29:33 | USDH (USDH) | Entry $0.999886 | Score 22 | 24H -0.01% | Vol/MCap 95.06%
+2026-05-16 11:29:33 | Alphabet xStock (GOOGLX) | Entry $395.41 | Score 22 | 24H 0.33% | Vol/MCap 80.96%
+2026-05-16 11:29:33 | aixbt (AIXBT) | Entry $0.03212376 | Score 22 | 24H 0.05% | Vol/MCap 43.81%
+2026-05-16 11:29:33 | dKargo (DKA) | Entry $0.00593156 | Score 22 | 24H -1.47% | Vol/MCap 44.94%
+2026-05-16 11:29:33 | DODO (DODO) | Entry $0.01837949 | Score 22 | 24H -1.17% | Vol/MCap 66.94%
+2026-05-16 11:29:33 | Checkmate (CHECK) | Entry $0.04456252 | Score 22 | 24H -0.05% | Vol/MCap 67.07%
+2026-05-16 11:29:33 | TRIA (TRIA) | Entry $0.0481306 | Score 21 | 24H 2.57% | Vol/MCap 27.37%
+2026-05-16 11:29:34 | Paris Saint-Germain Fan Token (PSG) | Entry $1.084 | Score 25 | 24H 2.88% | Vol/MCap 184.55%
+2026-05-16 11:29:34 | Royal Euro (REUR) | Entry $1.16 | Score 22 | 24H 0.01% | Vol/MCap 345.91%
+2026-05-16 11:29:34 | ZEROBASE (ZBT) | Entry $0.160752 | Score 22 | 24H 6.45% | Vol/MCap 110.88%
+2026-05-16 11:29:34 | USDH (USDH) | Entry $0.999886 | Score 22 | 24H -0.01% | Vol/MCap 95.06%
+2026-05-16 11:29:34 | Alphabet xStock (GOOGLX) | Entry $395.41 | Score 22 | 24H 0.33% | Vol/MCap 80.96%
+2026-05-16 11:29:34 | aixbt (AIXBT) | Entry $0.03212376 | Score 22 | 24H 0.05% | Vol/MCap 43.81%
+2026-05-16 11:29:34 | dKargo (DKA) | Entry $0.00593156 | Score 22 | 24H -1.47% | Vol/MCap 44.94%
+2026-05-16 11:29:34 | DODO (DODO) | Entry $0.01837949 | Score 22 | 24H -1.17% | Vol/MCap 66.94%
+2026-05-16 11:29:34 | Checkmate (CHECK) | Entry $0.04456252 | Score 22 | 24H -0.05% | Vol/MCap 67.07%
+2026-05-16 11:29:34 | TRIA (TRIA) | Entry $0.0481306 | Score 21 | 24H 2.57% | Vol/MCap 27.37%
+2026-05-16 11:34:34 | Paris Saint-Germain Fan Token (PSG) | Entry $1.084 | Score 25 | 24H 2.85% | Vol/MCap 184.95%
+2026-05-16 11:34:34 | Royal Euro (REUR) | Entry $1.16 | Score 22 | 24H -0.04% | Vol/MCap 345.52%
+2026-05-16 11:34:34 | ZEROBASE (ZBT) | Entry $0.16077 | Score 22 | 24H 6.46% | Vol/MCap 78.37%
+2026-05-16 11:34:34 | USDH (USDH) | Entry $0.99979 | Score 22 | 24H -0.04% | Vol/MCap 95.88%
+2026-05-16 11:34:34 | Alphabet xStock (GOOGLX) | Entry $395.45 | Score 22 | 24H 0.35% | Vol/MCap 80.64%
+2026-05-16 11:34:34 | aixbt (AIXBT) | Entry $0.03214796 | Score 22 | 24H 0.08% | Vol/MCap 44.05%
+2026-05-16 11:34:34 | dKargo (DKA) | Entry $0.00588562 | Score 22 | 24H -2.46% | Vol/MCap 44.99%
+2026-05-16 11:34:34 | DODO (DODO) | Entry $0.01822709 | Score 22 | 24H -1.99% | Vol/MCap 69.3%
+2026-05-16 11:34:34 | Checkmate (CHECK) | Entry $0.04455825 | Score 22 | 24H -0.14% | Vol/MCap 67.0%
+2026-05-16 11:34:34 | Orca (ORCA) | Entry $1.49 | Score 21 | 24H 1.01% | Vol/MCap 97.11%
+2026-05-16 11:39:34 | Paris Saint-Germain Fan Token (PSG) | Entry $1.085 | Score 25 | 24H 2.57% | Vol/MCap 186.05%
+2026-05-16 11:39:34 | Royal Euro (REUR) | Entry $1.16 | Score 22 | 24H -0.02% | Vol/MCap 344.9%
+2026-05-16 11:39:34 | ZEROBASE (ZBT) | Entry $0.160575 | Score 22 | 24H 6.33% | Vol/MCap 107.24%
+2026-05-16 11:39:34 | USDH (USDH) | Entry $0.999828 | Score 22 | 24H -0.0% | Vol/MCap 95.83%
+2026-05-16 11:39:34 | Alphabet xStock (GOOGLX) | Entry $395.54 | Score 22 | 24H 0.37% | Vol/MCap 80.61%
+2026-05-16 11:39:34 | aixbt (AIXBT) | Entry $0.03226027 | Score 22 | 24H 0.45% | Vol/MCap 44.4%
+2026-05-16 11:39:34 | dKargo (DKA) | Entry $0.00588387 | Score 22 | 24H -2.54% | Vol/MCap 45.23%
+2026-05-16 11:39:34 | DODO (DODO) | Entry $0.0183966 | Score 22 | 24H -1.98% | Vol/MCap 71.11%
+2026-05-16 11:39:34 | Orca (ORCA) | Entry $1.5 | Score 21 | 24H 1.58% | Vol/MCap 97.66%
+2026-05-16 11:39:34 | Numeraire (NMR) | Entry $9.19 | Score 21 | 24H 2.69% | Vol/MCap 23.28%
+2026-05-16 11:48:29 | Paris Saint-Germain Fan Token (PSG) | Entry $1.088 | SmartScore 36 | 24H 2.75% | Vol/MCap 187.0%
+2026-05-16 11:48:29 | Royal Euro (REUR) | Entry $1.16 | SmartScore 32 | 24H -0.06% | Vol/MCap 345.16%
+2026-05-16 11:48:29 | USDH (USDH) | Entry $1.0 | SmartScore 32 | 24H 0.03% | Vol/MCap 96.5%
+2026-05-16 11:48:29 | Alphabet xStock (GOOGLX) | Entry $395.53 | SmartScore 32 | 24H 0.35% | Vol/MCap 81.17%
+2026-05-16 11:48:29 | aixbt (AIXBT) | Entry $0.03217579 | SmartScore 32 | 24H 0.19% | Vol/MCap 44.4%
+2026-05-16 11:48:29 | Checkmate (CHECK) | Entry $0.04457455 | SmartScore 32 | 24H 0.12% | Vol/MCap 67.16%
+2026-05-16 11:48:29 | Orca (ORCA) | Entry $1.5 | SmartScore 29 | 24H 2.12% | Vol/MCap 91.41%
+2026-05-16 11:48:29 | Solayer (LAYER) | Entry $0.091341 | SmartScore 27 | 24H -4.6% | Vol/MCap 619.08%
+2026-05-16 11:48:29 | ZEROBASE (ZBT) | Entry $0.160569 | SmartScore 27 | 24H 6.47% | Vol/MCap 80.15%
+2026-05-16 11:48:29 | Aevo (AEVO) | Entry $0.02697278 | SmartScore 27 | 24H -4.27% | Vol/MCap 115.64%
+2026-05-16 11:53:29 | Paris Saint-Germain Fan Token (PSG) | Entry $1.084 | SmartScore 36 | 24H 2.56% | Vol/MCap 187.5%
+2026-05-16 11:53:29 | Royal Euro (REUR) | Entry $1.16 | SmartScore 32 | 24H -0.05% | Vol/MCap 345.38%
+2026-05-16 11:53:29 | USDH (USDH) | Entry $0.999795 | SmartScore 32 | 24H -0.0% | Vol/MCap 96.64%
+2026-05-16 11:53:29 | Alphabet xStock (GOOGLX) | Entry $395.54 | SmartScore 32 | 24H 0.38% | Vol/MCap 81.17%
+2026-05-16 11:53:29 | aixbt (AIXBT) | Entry $0.0320503 | SmartScore 32 | 24H -0.19% | Vol/MCap 44.69%
+2026-05-16 11:53:29 | DODO (DODO) | Entry $0.01889598 | SmartScore 32 | 24H -1.55% | Vol/MCap 67.02%
+2026-05-16 11:53:29 | Checkmate (CHECK) | Entry $0.04456468 | SmartScore 32 | 24H 0.12% | Vol/MCap 67.17%
+2026-05-16 11:53:29 | Orca (ORCA) | Entry $1.51 | SmartScore 29 | 24H 2.36% | Vol/MCap 91.8%
+2026-05-16 11:53:29 | Solayer (LAYER) | Entry $0.091409 | SmartScore 27 | 24H -4.52% | Vol/MCap 609.8%
+2026-05-16 11:53:29 | ZEROBASE (ZBT) | Entry $0.159454 | SmartScore 27 | 24H 5.51% | Vol/MCap 112.04%

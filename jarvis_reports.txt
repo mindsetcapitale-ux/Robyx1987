@@ -1,0 +1,858 @@
+
+==============================
+SCAN: 2026-05-15 19:21:33
+==============================
+
+Storj (STORJ)
+24H: +22.76%
+Prezzo: $0.132989
+Score: 14
+Volume/MarketCap: 777.29%
+----------------------
+PONKE (PONKE)
+24H: +17.67%
+Prezzo: $0.04049322
+Score: 14
+Volume/MarketCap: 85.53%
+----------------------
+BankrCoin (BNKR)
+24H: +12.98%
+Prezzo: $0.00048122
+Score: 14
+Volume/MarketCap: 30.61%
+----------------------
+AI Rig Complex (ARC)
+24H: +27.1%
+Prezzo: $0.073674
+Score: 14
+Volume/MarketCap: 18.88%
+----------------------
+Recall (RECALL)
+24H: +15.12%
+Prezzo: $0.067162
+Score: 14
+Volume/MarketCap: 76.66%
+----------------------
+Orca (ORCA)
+24H: +8.55%
+Prezzo: $1.56
+Score: 12
+Volume/MarketCap: 37.59%
+----------------------
+GoPlus Security (GPS)
+24H: +8.81%
+Prezzo: $0.00857795
+Score: 12
+Volume/MarketCap: 49.89%
+----------------------
+Falcon Finance (FF)
+24H: +11.25%
+Prezzo: $0.089289
+Score: 10
+Volume/MarketCap: 41.04%
+----------------------
+ChainGPT (CGPT)
+24H: +5.54%
+Prezzo: $0.04005173
+Score: 10
+Volume/MarketCap: 101.71%
+----------------------
+ZEROBASE (ZBT)
+24H: +3.73%
+Prezzo: $0.157487
+Score: 10
+Volume/MarketCap: 78.98%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.8%
+Prezzo: $1.054
+Score: 10
+Volume/MarketCap: 174.37%
+----------------------
+ARPA (ARPA)
+24H: +3.01%
+Prezzo: $0.01203687
+Score: 10
+Volume/MarketCap: 235.41%
+----------------------
+
+
+==============================
+SCAN: 2026-05-16 04:39:23
+==============================
+
+Storj (STORJ)
+24H: +22.05%
+Prezzo: $0.131826
+Score: 14
+Volume/MarketCap: 792.6%
+----------------------
+PONKE (PONKE)
+24H: +24.35%
+Prezzo: $0.04255016
+Score: 14
+Volume/MarketCap: 84.6%
+----------------------
+Recall (RECALL)
+24H: +15.14%
+Prezzo: $0.06742
+Score: 14
+Volume/MarketCap: 90.53%
+----------------------
+BankrCoin (BNKR)
+24H: +18.8%
+Prezzo: $0.00050685
+Score: 14
+Volume/MarketCap: 30.33%
+----------------------
+AI Rig Complex (ARC)
+24H: +32.03%
+Prezzo: $0.075368
+Score: 14
+Volume/MarketCap: 18.96%
+----------------------
+Falcon Finance (FF)
+24H: +9.02%
+Prezzo: $0.08828
+Score: 10
+Volume/MarketCap: 31.13%
+----------------------
+Orca (ORCA)
+24H: +4.82%
+Prezzo: $1.5
+Score: 10
+Volume/MarketCap: 42.62%
+----------------------
+ChainGPT (CGPT)
+24H: +6.49%
+Prezzo: $0.04066772
+Score: 10
+Volume/MarketCap: 94.56%
+----------------------
+ZEROBASE (ZBT)
+24H: +3.35%
+Prezzo: $0.157716
+Score: 10
+Volume/MarketCap: 80.12%
+----------------------
+ARPA (ARPA)
+24H: +3.74%
+Prezzo: $0.01209615
+Score: 10
+Volume/MarketCap: 241.86%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.52%
+Prezzo: $1.055
+Score: 10
+Volume/MarketCap: 174.24%
+----------------------
+Aevo (AEVO)
+24H: +3.25%
+Prezzo: $0.02978779
+Score: 10
+Volume/MarketCap: 99.49%
+----------------------
+
+
+==============================
+SCAN: 2026-05-16 04:39:25
+==============================
+
+Storj (STORJ)
+24H: +22.05%
+Prezzo: $0.131826
+Score: 14
+Volume/MarketCap: 792.6%
+----------------------
+PONKE (PONKE)
+24H: +24.35%
+Prezzo: $0.04255016
+Score: 14
+Volume/MarketCap: 84.6%
+----------------------
+Recall (RECALL)
+24H: +15.14%
+Prezzo: $0.06742
+Score: 14
+Volume/MarketCap: 90.53%
+----------------------
+BankrCoin (BNKR)
+24H: +18.8%
+Prezzo: $0.00050685
+Score: 14
+Volume/MarketCap: 30.33%
+----------------------
+AI Rig Complex (ARC)
+24H: +32.03%
+Prezzo: $0.075368
+Score: 14
+Volume/MarketCap: 18.96%
+----------------------
+Falcon Finance (FF)
+24H: +9.02%
+Prezzo: $0.08828
+Score: 10
+Volume/MarketCap: 31.13%
+----------------------
+Orca (ORCA)
+24H: +4.82%
+Prezzo: $1.5
+Score: 10
+Volume/MarketCap: 42.62%
+----------------------
+ChainGPT (CGPT)
+24H: +6.49%
+Prezzo: $0.04066772
+Score: 10
+Volume/MarketCap: 94.56%
+----------------------
+ZEROBASE (ZBT)
+24H: +3.35%
+Prezzo: $0.157716
+Score: 10
+Volume/MarketCap: 80.12%
+----------------------
+ARPA (ARPA)
+24H: +3.74%
+Prezzo: $0.01209615
+Score: 10
+Volume/MarketCap: 241.86%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.52%
+Prezzo: $1.055
+Score: 10
+Volume/MarketCap: 174.24%
+----------------------
+Aevo (AEVO)
+24H: +3.25%
+Prezzo: $0.02978779
+Score: 10
+Volume/MarketCap: 99.49%
+----------------------
+
+
+==============================
+SCAN: 2026-05-16 04:44:20
+==============================
+
+Storj (STORJ)
+24H: +24.86%
+Prezzo: $0.134186
+Score: 14
+Volume/MarketCap: 800.58%
+----------------------
+PONKE (PONKE)
+24H: +28.72%
+Prezzo: $0.04401242
+Score: 14
+Volume/MarketCap: 83.27%
+----------------------
+BankrCoin (BNKR)
+24H: +19.31%
+Prezzo: $0.00050955
+Score: 14
+Volume/MarketCap: 30.98%
+----------------------
+Recall (RECALL)
+24H: +16.12%
+Prezzo: $0.067993
+Score: 14
+Volume/MarketCap: 91.03%
+----------------------
+AI Rig Complex (ARC)
+24H: +31.29%
+Prezzo: $0.075365
+Score: 14
+Volume/MarketCap: 19.02%
+----------------------
+GoPlus Security (GPS)
+24H: +7.28%
+Prezzo: $0.00847703
+Score: 12
+Volume/MarketCap: 51.73%
+----------------------
+Falcon Finance (FF)
+24H: +8.97%
+Prezzo: $0.0878
+Score: 10
+Volume/MarketCap: 31.25%
+----------------------
+Orca (ORCA)
+24H: +5.23%
+Prezzo: $1.5
+Score: 10
+Volume/MarketCap: 45.76%
+----------------------
+ChainGPT (CGPT)
+24H: +6.36%
+Prezzo: $0.0408147
+Score: 10
+Volume/MarketCap: 100.79%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.35%
+Prezzo: $1.054
+Score: 10
+Volume/MarketCap: 174.32%
+----------------------
+ARPA (ARPA)
+24H: +3.69%
+Prezzo: $0.01211531
+Score: 10
+Volume/MarketCap: 236.52%
+----------------------
+ZEROBASE (ZBT)
+24H: +3.87%
+Prezzo: $0.158185
+Score: 10
+Volume/MarketCap: 58.09%
+----------------------
+
+
+==============================
+SCAN: 2026-05-16 04:44:22
+==============================
+
+Storj (STORJ)
+24H: +24.86%
+Prezzo: $0.134186
+Score: 14
+Volume/MarketCap: 800.58%
+----------------------
+PONKE (PONKE)
+24H: +28.72%
+Prezzo: $0.04401242
+Score: 14
+Volume/MarketCap: 83.27%
+----------------------
+BankrCoin (BNKR)
+24H: +19.31%
+Prezzo: $0.00050955
+Score: 14
+Volume/MarketCap: 30.98%
+----------------------
+Recall (RECALL)
+24H: +16.12%
+Prezzo: $0.067993
+Score: 14
+Volume/MarketCap: 91.03%
+----------------------
+AI Rig Complex (ARC)
+24H: +31.29%
+Prezzo: $0.075365
+Score: 14
+Volume/MarketCap: 19.02%
+----------------------
+GoPlus Security (GPS)
+24H: +7.28%
+Prezzo: $0.00847703
+Score: 12
+Volume/MarketCap: 51.73%
+----------------------
+Falcon Finance (FF)
+24H: +8.97%
+Prezzo: $0.0878
+Score: 10
+Volume/MarketCap: 31.25%
+----------------------
+Orca (ORCA)
+24H: +5.23%
+Prezzo: $1.5
+Score: 10
+Volume/MarketCap: 45.76%
+----------------------
+ChainGPT (CGPT)
+24H: +6.36%
+Prezzo: $0.0408147
+Score: 10
+Volume/MarketCap: 100.79%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.35%
+Prezzo: $1.054
+Score: 10
+Volume/MarketCap: 174.32%
+----------------------
+ARPA (ARPA)
+24H: +3.69%
+Prezzo: $0.01211531
+Score: 10
+Volume/MarketCap: 236.52%
+----------------------
+ZEROBASE (ZBT)
+24H: +3.87%
+Prezzo: $0.158185
+Score: 10
+Volume/MarketCap: 58.09%
+----------------------
+
+
+==============================
+SCAN: 2026-05-16 04:51:11
+==============================
+
+Storj (STORJ)
+24H: +25.21%
+Prezzo: $0.134606
+Score: 14
+Volume/MarketCap: 791.05%
+----------------------
+PONKE (PONKE)
+24H: +25.54%
+Prezzo: $0.04292694
+Score: 14
+Volume/MarketCap: 86.17%
+----------------------
+BankrCoin (BNKR)
+24H: +18.56%
+Prezzo: $0.00050636
+Score: 14
+Volume/MarketCap: 30.19%
+----------------------
+AI Rig Complex (ARC)
+24H: +31.22%
+Prezzo: $0.075377
+Score: 14
+Volume/MarketCap: 19.04%
+----------------------
+Recall (RECALL)
+24H: +15.85%
+Prezzo: $0.067847
+Score: 14
+Volume/MarketCap: 77.76%
+----------------------
+GoPlus Security (GPS)
+24H: +7.24%
+Prezzo: $0.00849522
+Score: 12
+Volume/MarketCap: 48.63%
+----------------------
+Falcon Finance (FF)
+24H: +9.55%
+Prezzo: $0.08752
+Score: 10
+Volume/MarketCap: 41.36%
+----------------------
+Orca (ORCA)
+24H: +5.24%
+Prezzo: $1.5
+Score: 10
+Volume/MarketCap: 43.39%
+----------------------
+ChainGPT (CGPT)
+24H: +6.27%
+Prezzo: $0.04109661
+Score: 10
+Volume/MarketCap: 100.12%
+----------------------
+ZEROBASE (ZBT)
+24H: +4.21%
+Prezzo: $0.158884
+Score: 10
+Volume/MarketCap: 79.89%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.39%
+Prezzo: $1.054
+Score: 10
+Volume/MarketCap: 174.04%
+----------------------
+ARPA (ARPA)
+24H: +3.5%
+Prezzo: $0.01212543
+Score: 10
+Volume/MarketCap: 236.42%
+----------------------
+
+
+==============================
+SCAN: 2026-05-16 04:55:51
+==============================
+
+Storj (STORJ)
+24H: +24.47%
+Prezzo: $0.134014
+Score: 14
+Volume/MarketCap: 797.48%
+----------------------
+PONKE (PONKE)
+24H: +25.86%
+Prezzo: $0.04275236
+Score: 14
+Volume/MarketCap: 86.12%
+----------------------
+BankrCoin (BNKR)
+24H: +17.89%
+Prezzo: $0.0005061
+Score: 14
+Volume/MarketCap: 30.46%
+----------------------
+AI Rig Complex (ARC)
+24H: +30.11%
+Prezzo: $0.074689
+Score: 14
+Volume/MarketCap: 19.13%
+----------------------
+Recall (RECALL)
+24H: +14.64%
+Prezzo: $0.067619
+Score: 14
+Volume/MarketCap: 77.64%
+----------------------
+Irys (IRYS)
+24H: +8.66%
+Prezzo: $0.055548
+Score: 10
+Volume/MarketCap: 89.26%
+----------------------
+Falcon Finance (FF)
+24H: +10.18%
+Prezzo: $0.08763
+Score: 10
+Volume/MarketCap: 31.34%
+----------------------
+Orca (ORCA)
+24H: +6.14%
+Prezzo: $1.52
+Score: 10
+Volume/MarketCap: 47.01%
+----------------------
+ChainGPT (CGPT)
+24H: +5.64%
+Prezzo: $0.04110221
+Score: 10
+Volume/MarketCap: 99.28%
+----------------------
+ZEROBASE (ZBT)
+24H: +4.12%
+Prezzo: $0.159178
+Score: 10
+Volume/MarketCap: 77.31%
+----------------------
+ARPA (ARPA)
+24H: +3.4%
+Prezzo: $0.01212215
+Score: 10
+Volume/MarketCap: 236.1%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.62%
+Prezzo: $1.056
+Score: 10
+Volume/MarketCap: 169.82%
+----------------------
+
+
+==============================
+SCAN: 2026-05-16 05:05:53
+==============================
+
+Storj (STORJ)
+24H: +23.73%
+Prezzo: $0.133404
+Score: 14
+Volume/MarketCap: 803.95%
+----------------------
+PONKE (PONKE)
+24H: +24.08%
+Prezzo: $0.04215448
+Score: 14
+Volume/MarketCap: 87.23%
+----------------------
+BankrCoin (BNKR)
+24H: +19.71%
+Prezzo: $0.00051367
+Score: 14
+Volume/MarketCap: 30.02%
+----------------------
+AI Rig Complex (ARC)
+24H: +33.26%
+Prezzo: $0.076276
+Score: 14
+Volume/MarketCap: 19.31%
+----------------------
+Recall (RECALL)
+24H: +15.58%
+Prezzo: $0.068433
+Score: 14
+Volume/MarketCap: 78.41%
+----------------------
+Orca (ORCA)
+24H: +7.07%
+Prezzo: $1.54
+Score: 12
+Volume/MarketCap: 48.11%
+----------------------
+Irys (IRYS)
+24H: +7.92%
+Prezzo: $0.055398
+Score: 10
+Volume/MarketCap: 89.07%
+----------------------
+Falcon Finance (FF)
+24H: +9.67%
+Prezzo: $0.086765
+Score: 10
+Volume/MarketCap: 41.14%
+----------------------
+ChainGPT (CGPT)
+24H: +4.24%
+Prezzo: $0.04121224
+Score: 10
+Volume/MarketCap: 99.12%
+----------------------
+ZEROBASE (ZBT)
+24H: +4.43%
+Prezzo: $0.160347
+Score: 10
+Volume/MarketCap: 77.21%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.33%
+Prezzo: $1.055
+Score: 10
+Volume/MarketCap: 173.79%
+----------------------
+ARPA (ARPA)
+24H: +3.74%
+Prezzo: $0.01215187
+Score: 10
+Volume/MarketCap: 235.82%
+----------------------
+
+
+==============================
+SCAN: 2026-05-16 05:06:34
+==============================
+
+Storj (STORJ)
+24H: +23.73%
+Prezzo: $0.133404
+Score: 14
+Volume/MarketCap: 803.95%
+----------------------
+PONKE (PONKE)
+24H: +24.08%
+Prezzo: $0.04215448
+Score: 14
+Volume/MarketCap: 87.23%
+----------------------
+BankrCoin (BNKR)
+24H: +19.71%
+Prezzo: $0.00051367
+Score: 14
+Volume/MarketCap: 30.02%
+----------------------
+AI Rig Complex (ARC)
+24H: +33.26%
+Prezzo: $0.076276
+Score: 14
+Volume/MarketCap: 19.31%
+----------------------
+Recall (RECALL)
+24H: +15.58%
+Prezzo: $0.068433
+Score: 14
+Volume/MarketCap: 78.41%
+----------------------
+Orca (ORCA)
+24H: +7.07%
+Prezzo: $1.54
+Score: 12
+Volume/MarketCap: 48.11%
+----------------------
+Irys (IRYS)
+24H: +7.92%
+Prezzo: $0.055398
+Score: 10
+Volume/MarketCap: 89.07%
+----------------------
+Falcon Finance (FF)
+24H: +9.67%
+Prezzo: $0.086765
+Score: 10
+Volume/MarketCap: 41.14%
+----------------------
+ChainGPT (CGPT)
+24H: +4.24%
+Prezzo: $0.04121224
+Score: 10
+Volume/MarketCap: 99.12%
+----------------------
+ZEROBASE (ZBT)
+24H: +4.43%
+Prezzo: $0.160347
+Score: 10
+Volume/MarketCap: 77.21%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.33%
+Prezzo: $1.055
+Score: 10
+Volume/MarketCap: 173.79%
+----------------------
+ARPA (ARPA)
+24H: +3.74%
+Prezzo: $0.01215187
+Score: 10
+Volume/MarketCap: 235.82%
+----------------------
+
+
+==============================
+SCAN: 2026-05-16 05:11:47
+==============================
+
+Storj (STORJ)
+24H: +26.27%
+Prezzo: $0.135942
+Score: 14
+Volume/MarketCap: 805.63%
+----------------------
+PONKE (PONKE)
+24H: +23.83%
+Prezzo: $0.04194302
+Score: 14
+Volume/MarketCap: 87.03%
+----------------------
+Recall (RECALL)
+24H: +16.44%
+Prezzo: $0.068622
+Score: 14
+Volume/MarketCap: 92.17%
+----------------------
+BankrCoin (BNKR)
+24H: +19.53%
+Prezzo: $0.00051384
+Score: 14
+Volume/MarketCap: 30.64%
+----------------------
+AI Rig Complex (ARC)
+24H: +32.42%
+Prezzo: $0.075626
+Score: 14
+Volume/MarketCap: 19.18%
+----------------------
+Orca (ORCA)
+24H: +7.62%
+Prezzo: $1.54
+Score: 12
+Volume/MarketCap: 48.65%
+----------------------
+Irys (IRYS)
+24H: +9.33%
+Prezzo: $0.056013
+Score: 10
+Volume/MarketCap: 89.64%
+----------------------
+Falcon Finance (FF)
+24H: +10.03%
+Prezzo: $0.086622
+Score: 10
+Volume/MarketCap: 41.15%
+----------------------
+ChainGPT (CGPT)
+24H: +3.74%
+Prezzo: $0.04108895
+Score: 10
+Volume/MarketCap: 98.58%
+----------------------
+ZEROBASE (ZBT)
+24H: +4.49%
+Prezzo: $0.160409
+Score: 10
+Volume/MarketCap: 77.27%
+----------------------
+ARPA (ARPA)
+24H: +3.65%
+Prezzo: $0.01214506
+Score: 10
+Volume/MarketCap: 235.81%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.11%
+Prezzo: $1.053
+Score: 10
+Volume/MarketCap: 155.03%
+----------------------
+
+
+==============================
+SCAN: 2026-05-16 05:13:57
+==============================
+
+Storj (STORJ)
+24H: +25.62%
+Prezzo: $0.135237
+Score: 14
+Volume/MarketCap: 804.53%
+----------------------
+PONKE (PONKE)
+24H: +23.81%
+Prezzo: $0.04193757
+Score: 14
+Volume/MarketCap: 87.09%
+----------------------
+BankrCoin (BNKR)
+24H: +21.74%
+Prezzo: $0.0005233
+Score: 14
+Volume/MarketCap: 31.66%
+----------------------
+Recall (RECALL)
+24H: +16.65%
+Prezzo: $0.068746
+Score: 14
+Volume/MarketCap: 92.45%
+----------------------
+AI Rig Complex (ARC)
+24H: +31.64%
+Prezzo: $0.075183
+Score: 14
+Volume/MarketCap: 18.55%
+----------------------
+Orca (ORCA)
+24H: +7.89%
+Prezzo: $1.55
+Score: 12
+Volume/MarketCap: 49.06%
+----------------------
+Irys (IRYS)
+24H: +9.54%
+Prezzo: $0.056119
+Score: 10
+Volume/MarketCap: 89.81%
+----------------------
+Falcon Finance (FF)
+24H: +10.26%
+Prezzo: $0.086798
+Score: 10
+Volume/MarketCap: 31.25%
+----------------------
+ChainGPT (CGPT)
+24H: +4.15%
+Prezzo: $0.04125282
+Score: 10
+Volume/MarketCap: 98.54%
+----------------------
+ZEROBASE (ZBT)
+24H: +4.67%
+Prezzo: $0.160685
+Score: 10
+Volume/MarketCap: 77.44%
+----------------------
+ARPA (ARPA)
+24H: +3.52%
+Prezzo: $0.01212969
+Score: 10
+Volume/MarketCap: 235.75%
+----------------------
+Paris Saint-Germain Fan Token (PSG)
+24H: +4.18%
+Prezzo: $1.053
+Score: 10
+Volume/MarketCap: 172.29%
+----------------------
+

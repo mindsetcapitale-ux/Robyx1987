@@ -1,0 +1,4699 @@
+{
+    "portfolio": [
+        {
+            "nome": "Retik Finance",
+            "simbolo": "RETIK",
+            "quantita": 7400000,
+            "prezzo_medio": 0.003
+        }
+    ],
+    "signals": [
+        {
+            "nome": "Spark",
+            "simbolo": "SPK",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -6.18,
+            "timestamp": "2026-05-16 14:03:52.754989"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.06,
+            "timestamp": "2026-05-16 14:03:52.756536"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 4.88,
+            "timestamp": "2026-05-16 14:03:52.757309"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.15,
+            "timestamp": "2026-05-16 14:03:52.757987"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.15,
+            "timestamp": "2026-05-16 14:03:52.758635"
+        },
+        {
+            "nome": "Falcon Finance",
+            "simbolo": "FF",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.11,
+            "timestamp": "2026-05-16 14:03:52.759274"
+        },
+        {
+            "nome": "Ondo U.S. Dollar Token",
+            "simbolo": "USDON",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0,
+            "timestamp": "2026-05-16 14:03:52.759781"
+        },
+        {
+            "nome": "ZEROBASE",
+            "simbolo": "ZBT",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 8.12,
+            "timestamp": "2026-05-16 14:03:52.760510"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 95,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 14:03:52.761324"
+        },
+        {
+            "nome": "USDC",
+            "simbolo": "USDC",
+            "ai_probability": 95,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 14:03:52.761900"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:21:49.946145"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 18:21:49.948089"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 18:21:49.949249"
+        },
+        {
+            "nome": "Spark",
+            "simbolo": "SPK",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -6.09,
+            "timestamp": "2026-05-16 18:21:49.950248"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 18:21:49.951236"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:21:49.952290"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 30,
+            "change_24h": 1.69,
+            "timestamp": "2026-05-16 18:21:49.952939"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 6.26,
+            "timestamp": "2026-05-16 18:21:49.953697"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 18:21:49.954390"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.31,
+            "timestamp": "2026-05-16 18:21:49.955252"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:22:05.656946"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 18:22:05.658678"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 18:22:05.659858"
+        },
+        {
+            "nome": "Spark",
+            "simbolo": "SPK",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -6.09,
+            "timestamp": "2026-05-16 18:22:05.660965"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 18:22:05.661989"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:22:05.662958"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 30,
+            "change_24h": 1.69,
+            "timestamp": "2026-05-16 18:22:05.663927"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 6.26,
+            "timestamp": "2026-05-16 18:22:05.664706"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 18:22:05.665469"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.31,
+            "timestamp": "2026-05-16 18:22:05.666275"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:22:21.502554"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 18:22:21.504382"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 18:22:21.506239"
+        },
+        {
+            "nome": "Spark",
+            "simbolo": "SPK",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -6.09,
+            "timestamp": "2026-05-16 18:22:21.507835"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 18:22:21.508996"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:22:21.510155"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 30,
+            "change_24h": 1.69,
+            "timestamp": "2026-05-16 18:22:21.511519"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 6.26,
+            "timestamp": "2026-05-16 18:22:21.512420"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 18:22:21.513324"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.31,
+            "timestamp": "2026-05-16 18:22:21.514247"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:22:37.168965"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 18:22:37.170667"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 18:22:37.172084"
+        },
+        {
+            "nome": "Spark",
+            "simbolo": "SPK",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -6.09,
+            "timestamp": "2026-05-16 18:22:37.173802"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 18:22:37.175426"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:22:37.176361"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 30,
+            "change_24h": 1.69,
+            "timestamp": "2026-05-16 18:22:37.177622"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 6.26,
+            "timestamp": "2026-05-16 18:22:37.179254"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 18:22:37.180336"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.31,
+            "timestamp": "2026-05-16 18:22:37.181433"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:22:53.215451"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.07,
+            "timestamp": "2026-05-16 18:22:53.218036"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.1,
+            "timestamp": "2026-05-16 18:22:53.220325"
+        },
+        {
+            "nome": "Spark",
+            "simbolo": "SPK",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -6.06,
+            "timestamp": "2026-05-16 18:22:53.222836"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 18:22:53.224500"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 30,
+            "change_24h": 1.7,
+            "timestamp": "2026-05-16 18:22:53.226325"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 6.15,
+            "timestamp": "2026-05-16 18:22:53.227803"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 18:22:53.229098"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 18:22:53.230339"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.31,
+            "timestamp": "2026-05-16 18:22:53.231479"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:23:09.163570"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.07,
+            "timestamp": "2026-05-16 18:23:09.165800"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.1,
+            "timestamp": "2026-05-16 18:23:09.167262"
+        },
+        {
+            "nome": "Spark",
+            "simbolo": "SPK",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -6.06,
+            "timestamp": "2026-05-16 18:23:09.168518"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 18:23:09.169639"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 30,
+            "change_24h": 1.7,
+            "timestamp": "2026-05-16 18:23:09.170780"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 6.15,
+            "timestamp": "2026-05-16 18:23:09.171945"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 18:23:09.173502"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 18:23:09.174735"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.31,
+            "timestamp": "2026-05-16 18:23:09.176092"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 18:23:24.957800"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.07,
+            "timestamp": "2026-05-16 18:23:24.960530"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.1,
+            "timestamp": "2026-05-16 18:23:24.962673"
+        },
+        {
+            "nome": "Spark",
+            "simbolo": "SPK",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -6.06,
+            "timestamp": "2026-05-16 18:23:24.964222"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 18:23:24.965756"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 30,
+            "change_24h": 1.7,
+            "timestamp": "2026-05-16 18:23:24.967205"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 6.15,
+            "timestamp": "2026-05-16 18:23:24.968547"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 18:23:24.970056"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 18:23:24.971593"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.31,
+            "timestamp": "2026-05-16 18:23:24.972924"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 20:50:04.008738"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 20:50:04.011375"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 20:50:04.013140"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 20:50:04.014698"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 30,
+            "change_24h": 1.0,
+            "timestamp": "2026-05-16 20:50:04.016081"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 5.72,
+            "timestamp": "2026-05-16 20:50:04.017308"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 20:50:04.019059"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 8.84,
+            "timestamp": "2026-05-16 20:50:04.020646"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 20:50:04.022172"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 20:50:04.023639"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 20:50:20.151209"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 20:50:20.153814"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 20:50:20.155425"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 20:50:20.157560"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 30,
+            "change_24h": 1.0,
+            "timestamp": "2026-05-16 20:50:20.159443"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 5.72,
+            "timestamp": "2026-05-16 20:50:20.161081"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 20:50:20.162677"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 8.84,
+            "timestamp": "2026-05-16 20:50:20.164243"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 20:50:20.165554"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 20:50:20.166877"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 20:50:36.217399"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 20:50:36.220648"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 20:50:36.222706"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 20:50:36.224748"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 30,
+            "change_24h": 1.0,
+            "timestamp": "2026-05-16 20:50:36.226611"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 5.72,
+            "timestamp": "2026-05-16 20:50:36.228527"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 20:50:36.230875"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 8.84,
+            "timestamp": "2026-05-16 20:50:36.232749"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 20:50:36.234919"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 20:50:36.236875"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 20:50:52.206372"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 20:50:52.209881"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 20:50:52.212327"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 20:50:52.214673"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 30,
+            "change_24h": 1.0,
+            "timestamp": "2026-05-16 20:50:52.217063"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 5.72,
+            "timestamp": "2026-05-16 20:50:52.219101"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 20:50:52.220997"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 8.84,
+            "timestamp": "2026-05-16 20:50:52.223251"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 20:50:52.225287"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 20:50:52.227211"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 20:51:08.291956"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 20:51:08.296628"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 20:51:08.299788"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 20:51:08.302110"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 30,
+            "change_24h": 1.0,
+            "timestamp": "2026-05-16 20:51:08.304580"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 5.76,
+            "timestamp": "2026-05-16 20:51:08.306754"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 20:51:08.308734"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 8.84,
+            "timestamp": "2026-05-16 20:51:08.310622"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 20:51:08.312863"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 20:51:08.314858"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:31:21.605713"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:31:21.608015"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:31:21.610555"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:31:21.612891"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 30,
+            "change_24h": -0.39,
+            "timestamp": "2026-05-16 21:31:21.615093"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 5.79,
+            "timestamp": "2026-05-16 21:31:21.617163"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -1.32,
+            "timestamp": "2026-05-16 21:31:21.618973"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 21:31:21.620751"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 8.62,
+            "timestamp": "2026-05-16 21:31:21.622530"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:31:21.624056"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:31:23.968783"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:31:23.971263"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:31:23.973347"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:31:23.975612"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 30,
+            "change_24h": -0.39,
+            "timestamp": "2026-05-16 21:31:23.977564"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 5.79,
+            "timestamp": "2026-05-16 21:31:23.979755"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -1.32,
+            "timestamp": "2026-05-16 21:31:23.981751"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 21:31:23.983654"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 8.62,
+            "timestamp": "2026-05-16 21:31:23.985277"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:31:23.986899"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:31:56.291479"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:31:56.294357"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:31:56.296896"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:31:56.299364"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 30,
+            "change_24h": -0.39,
+            "timestamp": "2026-05-16 21:31:56.301604"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 5.79,
+            "timestamp": "2026-05-16 21:31:56.303606"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -1.32,
+            "timestamp": "2026-05-16 21:31:56.305605"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 21:31:56.307426"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 8.62,
+            "timestamp": "2026-05-16 21:31:56.309146"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:31:56.310874"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:37:23.340044"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:37:23.343251"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:37:23.345936"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 21:37:23.348481"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 30,
+            "change_24h": -0.38,
+            "timestamp": "2026-05-16 21:37:23.350822"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 5.71,
+            "timestamp": "2026-05-16 21:37:23.353835"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -1.43,
+            "timestamp": "2026-05-16 21:37:23.356633"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 21:37:23.359301"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 8.35,
+            "timestamp": "2026-05-16 21:37:23.361506"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 21:37:23.363632"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:37:29.110002"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:37:29.113884"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:37:29.117021"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 21:37:29.119915"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 30,
+            "change_24h": -0.38,
+            "timestamp": "2026-05-16 21:37:29.122605"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 5.71,
+            "timestamp": "2026-05-16 21:37:29.124583"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -1.43,
+            "timestamp": "2026-05-16 21:37:29.125853"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 21:37:29.127253"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 8.35,
+            "timestamp": "2026-05-16 21:37:29.128697"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 21:37:29.130043"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:38:01.931959"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:38:01.935980"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:38:01.939376"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 21:38:01.942590"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 30,
+            "change_24h": -0.38,
+            "timestamp": "2026-05-16 21:38:01.945953"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 5.71,
+            "timestamp": "2026-05-16 21:38:01.948911"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -1.43,
+            "timestamp": "2026-05-16 21:38:01.951614"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 21:38:01.954923"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 8.35,
+            "timestamp": "2026-05-16 21:38:01.957294"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 21:38:01.959705"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:38:27.640832"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:38:27.644977"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:38:27.648375"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:38:27.651318"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 30,
+            "change_24h": -0.39,
+            "timestamp": "2026-05-16 21:38:27.653919"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 5.78,
+            "timestamp": "2026-05-16 21:38:27.657291"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -1.44,
+            "timestamp": "2026-05-16 21:38:27.660532"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 21:38:27.663381"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 8.34,
+            "timestamp": "2026-05-16 21:38:27.665866"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:38:27.668344"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:39:00.019332"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:39:00.022934"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:39:00.026853"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:39:00.030099"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 30,
+            "change_24h": -0.39,
+            "timestamp": "2026-05-16 21:39:00.033148"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 5.78,
+            "timestamp": "2026-05-16 21:39:00.035060"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -1.44,
+            "timestamp": "2026-05-16 21:39:00.037594"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 21:39:00.040340"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 8.34,
+            "timestamp": "2026-05-16 21:39:00.042945"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:39:00.045364"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:39:32.517630"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:39:32.521359"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:39:32.524648"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:39:32.527639"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:39:32.529546"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 30,
+            "change_24h": -0.4,
+            "timestamp": "2026-05-16 21:39:32.530816"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 5.84,
+            "timestamp": "2026-05-16 21:39:32.532056"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -1.54,
+            "timestamp": "2026-05-16 21:39:32.533279"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:39:32.534514"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 8.38,
+            "timestamp": "2026-05-16 21:39:32.535710"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:40:05.078217"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:40:05.082374"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:40:05.086343"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:40:05.090478"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:40:05.093981"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 30,
+            "change_24h": -0.4,
+            "timestamp": "2026-05-16 21:40:05.097461"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 5.84,
+            "timestamp": "2026-05-16 21:40:05.100691"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -1.54,
+            "timestamp": "2026-05-16 21:40:05.103511"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:40:05.106190"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 8.38,
+            "timestamp": "2026-05-16 21:40:05.108724"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:40:37.667586"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:40:37.672101"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:40:37.675772"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:40:37.678974"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 30,
+            "change_24h": -0.48,
+            "timestamp": "2026-05-16 21:40:37.680446"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 5.85,
+            "timestamp": "2026-05-16 21:40:37.681765"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -1.54,
+            "timestamp": "2026-05-16 21:40:37.683068"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:40:37.684375"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 8.2,
+            "timestamp": "2026-05-16 21:40:37.685719"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:40:37.687120"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:41:10.266002"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:41:10.270121"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:41:10.273672"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:41:10.277522"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 30,
+            "change_24h": -0.48,
+            "timestamp": "2026-05-16 21:41:10.281357"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 5.85,
+            "timestamp": "2026-05-16 21:41:10.285074"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -1.54,
+            "timestamp": "2026-05-16 21:41:10.287425"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:41:10.289412"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 8.2,
+            "timestamp": "2026-05-16 21:41:10.292737"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:41:10.294950"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:41:43.129950"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:41:43.134027"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:41:43.137726"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.06,
+            "timestamp": "2026-05-16 21:41:43.140248"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 30,
+            "change_24h": -0.23,
+            "timestamp": "2026-05-16 21:41:43.141733"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 5.93,
+            "timestamp": "2026-05-16 21:41:43.143159"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -1.35,
+            "timestamp": "2026-05-16 21:41:43.144567"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 21:41:43.145972"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 7.91,
+            "timestamp": "2026-05-16 21:41:43.147373"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 21:41:43.148777"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:45:25.478361"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:45:25.484749"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:45:25.489933"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:45:25.494512"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 30,
+            "change_24h": -0.24,
+            "timestamp": "2026-05-16 21:45:25.498636"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 6.25,
+            "timestamp": "2026-05-16 21:45:25.502516"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -1.43,
+            "timestamp": "2026-05-16 21:45:25.506643"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:45:25.510699"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 8.02,
+            "timestamp": "2026-05-16 21:45:25.514096"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 21:45:25.517446"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:45:28.286095"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:45:28.293027"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:45:28.298163"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:45:28.302473"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 30,
+            "change_24h": -0.24,
+            "timestamp": "2026-05-16 21:45:28.306244"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 6.25,
+            "timestamp": "2026-05-16 21:45:28.307722"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -1.43,
+            "timestamp": "2026-05-16 21:45:28.309207"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:45:28.310745"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 8.02,
+            "timestamp": "2026-05-16 21:45:28.312537"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 21:45:28.314345"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:46:01.207723"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:46:01.217340"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:46:01.223474"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:46:01.227970"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 30,
+            "change_24h": -0.24,
+            "timestamp": "2026-05-16 21:46:01.232745"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 6.25,
+            "timestamp": "2026-05-16 21:46:01.238553"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -1.43,
+            "timestamp": "2026-05-16 21:46:01.243176"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:46:01.246805"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 8.02,
+            "timestamp": "2026-05-16 21:46:01.250426"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.04,
+            "timestamp": "2026-05-16 21:46:01.253556"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:46:33.902425"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.06,
+            "timestamp": "2026-05-16 21:46:33.911107"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:46:33.917679"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.06,
+            "timestamp": "2026-05-16 21:46:33.922905"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.08,
+            "timestamp": "2026-05-16 21:46:33.927562"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 30,
+            "change_24h": -0.35,
+            "timestamp": "2026-05-16 21:46:33.932302"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 6.3,
+            "timestamp": "2026-05-16 21:46:33.936863"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -1.68,
+            "timestamp": "2026-05-16 21:46:33.940672"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:46:33.944413"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 7.39,
+            "timestamp": "2026-05-16 21:46:33.947698"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:47:06.832530"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.06,
+            "timestamp": "2026-05-16 21:47:06.840596"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:47:06.847775"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.06,
+            "timestamp": "2026-05-16 21:47:06.853318"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.08,
+            "timestamp": "2026-05-16 21:47:06.857845"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 30,
+            "change_24h": -0.35,
+            "timestamp": "2026-05-16 21:47:06.861651"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 6.3,
+            "timestamp": "2026-05-16 21:47:06.865385"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -1.68,
+            "timestamp": "2026-05-16 21:47:06.869202"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:47:06.872727"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 7.39,
+            "timestamp": "2026-05-16 21:47:06.875823"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:47:39.694106"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.06,
+            "timestamp": "2026-05-16 21:47:39.704622"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:47:39.710951"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:47:39.716778"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.09,
+            "timestamp": "2026-05-16 21:47:39.722021"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 30,
+            "change_24h": -0.35,
+            "timestamp": "2026-05-16 21:47:39.727446"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 6.3,
+            "timestamp": "2026-05-16 21:47:39.731887"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:47:39.735849"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 7.39,
+            "timestamp": "2026-05-16 21:47:39.739715"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -0.09,
+            "timestamp": "2026-05-16 21:47:39.743329"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:48:12.493556"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.06,
+            "timestamp": "2026-05-16 21:48:12.499842"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:48:12.506593"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:48:12.513318"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.09,
+            "timestamp": "2026-05-16 21:48:12.518708"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 30,
+            "change_24h": -0.35,
+            "timestamp": "2026-05-16 21:48:12.523877"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 6.3,
+            "timestamp": "2026-05-16 21:48:12.528958"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:48:12.533920"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 7.39,
+            "timestamp": "2026-05-16 21:48:12.537961"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -0.09,
+            "timestamp": "2026-05-16 21:48:12.541936"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:48:45.179206"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.06,
+            "timestamp": "2026-05-16 21:48:45.188967"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:48:45.197217"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:48:45.202573"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.09,
+            "timestamp": "2026-05-16 21:48:45.207161"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 30,
+            "change_24h": -0.36,
+            "timestamp": "2026-05-16 21:48:45.209332"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 6.35,
+            "timestamp": "2026-05-16 21:48:45.211450"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:48:45.213503"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 7.49,
+            "timestamp": "2026-05-16 21:48:45.215380"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:48:45.217247"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:49:18.029209"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.06,
+            "timestamp": "2026-05-16 21:49:18.040875"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:49:18.046990"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:49:18.052711"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.09,
+            "timestamp": "2026-05-16 21:49:18.058281"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 30,
+            "change_24h": -0.36,
+            "timestamp": "2026-05-16 21:49:18.063575"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 6.35,
+            "timestamp": "2026-05-16 21:49:18.067850"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:49:18.072069"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 7.49,
+            "timestamp": "2026-05-16 21:49:18.075700"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:49:18.079327"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:49:50.748755"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.05,
+            "timestamp": "2026-05-16 21:49:50.757412"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:49:50.763347"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.08,
+            "timestamp": "2026-05-16 21:49:50.768713"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 30,
+            "change_24h": -0.39,
+            "timestamp": "2026-05-16 21:49:50.774136"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 6.37,
+            "timestamp": "2026-05-16 21:49:50.778535"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -1.54,
+            "timestamp": "2026-05-16 21:49:50.782782"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 7.51,
+            "timestamp": "2026-05-16 21:49:50.786510"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:49:50.790244"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:49:50.793927"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:50:08.678535"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.05,
+            "timestamp": "2026-05-16 21:50:08.690059"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:50:08.696857"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.08,
+            "timestamp": "2026-05-16 21:50:08.702055"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 30,
+            "change_24h": -0.39,
+            "timestamp": "2026-05-16 21:50:08.705972"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 6.37,
+            "timestamp": "2026-05-16 21:50:08.709009"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -1.54,
+            "timestamp": "2026-05-16 21:50:08.711506"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 7.51,
+            "timestamp": "2026-05-16 21:50:08.713741"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:50:08.716092"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:50:08.718989"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:50:41.336717"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.05,
+            "timestamp": "2026-05-16 21:50:41.344661"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:50:41.350947"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.08,
+            "timestamp": "2026-05-16 21:50:41.356339"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 30,
+            "change_24h": -0.39,
+            "timestamp": "2026-05-16 21:50:41.359487"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 6.37,
+            "timestamp": "2026-05-16 21:50:41.362329"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -1.54,
+            "timestamp": "2026-05-16 21:50:41.365271"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 7.51,
+            "timestamp": "2026-05-16 21:50:41.368159"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:50:41.370821"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:50:41.373465"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:51:16.716458"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.05,
+            "timestamp": "2026-05-16 21:51:16.726431"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:51:16.734000"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:51:16.740756"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 30,
+            "change_24h": -0.41,
+            "timestamp": "2026-05-16 21:51:16.746155"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 6.43,
+            "timestamp": "2026-05-16 21:51:16.750722"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -1.37,
+            "timestamp": "2026-05-16 21:51:16.755001"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 8.37,
+            "timestamp": "2026-05-16 21:51:16.758953"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.05,
+            "timestamp": "2026-05-16 21:51:16.762697"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:51:16.766083"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:55:03.342475"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:55:03.354397"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:55:03.361406"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 30,
+            "change_24h": -0.37,
+            "timestamp": "2026-05-16 21:55:03.366810"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 6.59,
+            "timestamp": "2026-05-16 21:55:03.369278"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -1.3,
+            "timestamp": "2026-05-16 21:55:03.371423"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:55:03.373553"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 7.9,
+            "timestamp": "2026-05-16 21:55:03.375673"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.05,
+            "timestamp": "2026-05-16 21:55:03.377798"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.1,
+            "timestamp": "2026-05-16 21:55:03.379937"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:55:07.029034"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:55:07.039726"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:55:07.046436"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 30,
+            "change_24h": -0.37,
+            "timestamp": "2026-05-16 21:55:07.053258"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 6.59,
+            "timestamp": "2026-05-16 21:55:07.059520"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -1.3,
+            "timestamp": "2026-05-16 21:55:07.064762"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:55:07.069611"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 7.9,
+            "timestamp": "2026-05-16 21:55:07.074247"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.05,
+            "timestamp": "2026-05-16 21:55:07.078380"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -0.1,
+            "timestamp": "2026-05-16 21:55:07.082215"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:55:39.621828"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.04,
+            "timestamp": "2026-05-16 21:55:39.632633"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.03,
+            "timestamp": "2026-05-16 21:55:39.638831"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 30,
+            "change_24h": -0.37,
+            "timestamp": "2026-05-16 21:55:39.645562"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 6.59,
+            "timestamp": "2026-05-16 21:55:39.651406"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -1.3,
+            "timestamp": "2026-05-16 21:55:39.656538"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.02,
+            "timestamp": "2026-05-16 21:55:39.661397"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 7.9,
+            "timestamp": "2026-05-16 21:55:39.665738"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.05,
+            "timestamp": "2026-05-16 21:55:39.669807"
+        },
+        {
+            "nome": "Sun Token",
+            "simbolo": "SUN",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.1,
+            "timestamp": "2026-05-16 21:55:39.673569"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:56:12.365150"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:56:12.377745"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -0.07,
+            "timestamp": "2026-05-16 21:56:12.385755"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:56:12.392238"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 30,
+            "change_24h": -0.29,
+            "timestamp": "2026-05-16 21:56:12.397623"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 6.35,
+            "timestamp": "2026-05-16 21:56:12.402519"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -1.33,
+            "timestamp": "2026-05-16 21:56:12.407049"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:56:12.411941"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 7.82,
+            "timestamp": "2026-05-16 21:56:12.416358"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 21:56:12.420275"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:56:44.940340"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:56:44.953080"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.07,
+            "timestamp": "2026-05-16 21:56:44.960594"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:56:44.967017"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 30,
+            "change_24h": -0.29,
+            "timestamp": "2026-05-16 21:56:44.973696"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 6.35,
+            "timestamp": "2026-05-16 21:56:44.979494"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -1.33,
+            "timestamp": "2026-05-16 21:56:44.984658"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:56:44.989183"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 7.82,
+            "timestamp": "2026-05-16 21:56:44.993492"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 21:56:44.997475"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:57:17.756068"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:57:17.768654"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 21:57:17.775735"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:57:17.783030"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:57:17.789710"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 30,
+            "change_24h": -0.34,
+            "timestamp": "2026-05-16 21:57:17.795140"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 6.02,
+            "timestamp": "2026-05-16 21:57:17.800050"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": -1.32,
+            "timestamp": "2026-05-16 21:57:17.804683"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:57:17.808704"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 7.82,
+            "timestamp": "2026-05-16 21:57:17.812746"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:57:50.359061"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:57:50.370593"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.0,
+            "timestamp": "2026-05-16 21:57:50.377983"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:57:50.381633"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:57:50.384219"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 30,
+            "change_24h": -0.34,
+            "timestamp": "2026-05-16 21:57:50.386694"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 6.02,
+            "timestamp": "2026-05-16 21:57:50.389158"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -1.32,
+            "timestamp": "2026-05-16 21:57:50.391677"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:57:50.394268"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 7.82,
+            "timestamp": "2026-05-16 21:57:50.396748"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:58:28.160832"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:58:28.174254"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:58:28.181686"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:58:28.186596"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 30,
+            "change_24h": -0.35,
+            "timestamp": "2026-05-16 21:58:28.189502"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 6.01,
+            "timestamp": "2026-05-16 21:58:28.192350"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -1.29,
+            "timestamp": "2026-05-16 21:58:28.195342"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:58:28.198511"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 7.82,
+            "timestamp": "2026-05-16 21:58:28.201337"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 21:58:28.204496"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:58:31.042222"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:58:31.053307"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:58:31.060940"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:58:31.068266"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 30,
+            "change_24h": -0.35,
+            "timestamp": "2026-05-16 21:58:31.074698"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 6.01,
+            "timestamp": "2026-05-16 21:58:31.080321"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -1.29,
+            "timestamp": "2026-05-16 21:58:31.085249"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:58:31.089767"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 7.82,
+            "timestamp": "2026-05-16 21:58:31.094055"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 21:58:31.098033"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:59:04.462079"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:59:04.471474"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:59:04.478642"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:59:04.485377"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 30,
+            "change_24h": -0.35,
+            "timestamp": "2026-05-16 21:59:04.491708"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 6.01,
+            "timestamp": "2026-05-16 21:59:04.497402"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": -1.29,
+            "timestamp": "2026-05-16 21:59:04.502403"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 21:59:04.507059"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 7.82,
+            "timestamp": "2026-05-16 21:59:04.511441"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.06,
+            "timestamp": "2026-05-16 21:59:04.515480"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 21:59:37.450180"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:59:37.458988"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 21:59:37.466915"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 21:59:37.473691"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 30,
+            "change_24h": -0.36,
+            "timestamp": "2026-05-16 21:59:37.479692"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 6.06,
+            "timestamp": "2026-05-16 21:59:37.485158"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": -1.29,
+            "timestamp": "2026-05-16 21:59:37.490194"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 21:59:37.494612"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 7.47,
+            "timestamp": "2026-05-16 21:59:37.498952"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": -0.05,
+            "timestamp": "2026-05-16 21:59:37.502853"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 22:00:10.435497"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Token Burn",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 22:00:10.444487"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": -0.01,
+            "timestamp": "2026-05-16 22:00:10.450422"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 22:00:10.453209"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 30,
+            "change_24h": -0.36,
+            "timestamp": "2026-05-16 22:00:10.455930"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": 6.06,
+            "timestamp": "2026-05-16 22:00:10.458644"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "Binance",
+            "risk": 0,
+            "change_24h": -1.29,
+            "timestamp": "2026-05-16 22:00:10.461374"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Launch",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 22:00:10.464085"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 7.47,
+            "timestamp": "2026-05-16 22:00:10.466819"
+        },
+        {
+            "nome": "Royal Euro",
+            "simbolo": "REUR",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": -0.05,
+            "timestamp": "2026-05-16 22:00:10.469668"
+        },
+        {
+            "nome": "Tether",
+            "simbolo": "USDT",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.0,
+            "timestamp": "2026-05-16 22:00:43.389248"
+        },
+        {
+            "nome": "USD1",
+            "simbolo": "USD1",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 22:00:43.401883"
+        },
+        {
+            "nome": "United Stables",
+            "simbolo": "U",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 22:00:43.409531"
+        },
+        {
+            "nome": "Royal Dollar",
+            "simbolo": "RUSD",
+            "ai_probability": 99,
+            "news": "Funding",
+            "risk": 0,
+            "change_24h": 0.02,
+            "timestamp": "2026-05-16 22:00:43.412957"
+        },
+        {
+            "nome": "Solayer",
+            "simbolo": "LAYER",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 30,
+            "change_24h": -0.37,
+            "timestamp": "2026-05-16 22:00:43.415803"
+        },
+        {
+            "nome": "First Digital USD",
+            "simbolo": "FDUSD",
+            "ai_probability": 99,
+            "news": "Listing",
+            "risk": 0,
+            "change_24h": 0.01,
+            "timestamp": "2026-05-16 22:00:43.418551"
+        },
+        {
+            "nome": "Orca",
+            "simbolo": "ORCA",
+            "ai_probability": 99,
+            "news": "Whale",
+            "risk": 0,
+            "change_24h": 6.11,
+            "timestamp": "2026-05-16 22:00:43.421578"
+        },
+        {
+            "nome": "edgeX",
+            "simbolo": "EDGE",
+            "ai_probability": 99,
+            "news": "AI",
+            "risk": 0,
+            "change_24h": -1.29,
+            "timestamp": "2026-05-16 22:00:43.424421"
+        },
+        {
+            "nome": "EUR CoinVertible",
+            "simbolo": "EURCV",
+            "ai_probability": 99,
+            "news": "Partnership",
+            "risk": 0,
+            "change_24h": 0.03,
+            "timestamp": "2026-05-16 22:00:43.427246"
+        },
+        {
+            "nome": "Pharos",
+            "simbolo": "PROS",
+            "ai_probability": 99,
+            "news": "ETF",
+            "risk": 0,
+            "change_24h": 7.46,
+            "timestamp": "2026-05-16 22:00:43.430021"
+        }
+    ],
+    "wallet_activity": [],
+    "news_history": [],
+    "ml_memory": {
+        "average_ai": 98,
+        "successful_signals": 510,
+        "failed_signals": 0
+    }
+}

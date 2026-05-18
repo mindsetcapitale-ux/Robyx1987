@@ -1,0 +1,11 @@
+
+==============================
+PAPER TRADING: 2026-05-16 04:58:26
+==============================
+
+Trade totali: 3
+Trade positivi: 3
+Trade negativi: 0
+Precisione: 100.0%
+Profitto totale: $30.69
+

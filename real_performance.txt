@@ -1,0 +1,31 @@
+
+==============================
+REAL PERFORMANCE: 2026-05-16 05:09:44
+==============================
+
+Trade totali: 0
+Trade positivi: 0
+Trade negativi: 0
+Profitto reale totale: $0
+
+
+==============================
+REAL PERFORMANCE: 2026-05-16 05:12:04
+==============================
+
+Trade totali: 0
+Trade positivi: 0
+Trade negativi: 0
+Profitto reale totale: $0
+
+
+==============================
+REAL PERFORMANCE: 2026-05-16 05:14:21
+==============================
+
+Trade totali: 3
+Trade positivi: 2
+Trade negativi: 1
+Precisione reale: 66.67%
+Profitto reale totale: $0.01
+
