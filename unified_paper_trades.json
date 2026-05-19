@@ -10,8 +10,8 @@
             "stop_loss": -7,
             "opened_at": "2026-05-17 22:00:42.325641",
             "status": "OPEN",
-            "current_price": 1.526,
-            "current_pnl": -0.13
+            "current_price": 1.657,
+            "current_pnl": 8.44
         },
         {
             "symbol": "CHZ",
@@ -23,8 +23,8 @@
             "stop_loss": -7,
             "opened_at": "2026-05-17 22:00:42.710899",
             "status": "OPEN",
-            "current_price": 0.04787,
-            "current_pnl": -1.1
+            "current_price": 0.04719,
+            "current_pnl": -2.5
         },
         {
             "symbol": "INJ",
@@ -36,8 +36,8 @@
             "stop_loss": -7,
             "opened_at": "2026-05-17 22:00:43.732495",
             "status": "OPEN",
-            "current_price": 4.779,
-            "current_pnl": 0.48
+            "current_price": 4.943,
+            "current_pnl": 3.93
         }
     ],
     "closed_trades": [],
