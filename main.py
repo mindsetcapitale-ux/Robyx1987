@@ -5,6 +5,8 @@ import threading
 
 from core.telegram_bot_listener import main as telegram_main
 from cloud_health_monitor import start_health_monitor
+from core.task_supervisor import start_supervisor
+
 
 app = Flask(__name__)
 
@@ -31,13 +33,28 @@ def start_health():
     start_health_monitor()
 
 
-telegram_thread = threading.Thread(target=start_telegram)
+telegram_thread = threading.Thread(
+    target=start_telegram
+)
+
 telegram_thread.daemon = True
 telegram_thread.start()
 
-health_thread = threading.Thread(target=start_health)
+
+health_thread = threading.Thread(
+    target=start_health
+)
+
 health_thread.daemon = True
 health_thread.start()
+
+
+supervisor_thread = threading.Thread(
+    target=start_supervisor
+)
+
+supervisor_thread.daemon = True
+supervisor_thread.start()
 
 
 if __name__ == "__main__":
