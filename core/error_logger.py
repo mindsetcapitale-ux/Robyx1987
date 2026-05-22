@@ -7,6 +7,10 @@ from core.telegram_alerts import (
     send_telegram_message
 )
 
+from core.database import (
+    save_error
+)
+
 
 LOG_FOLDER = "logs"
 
@@ -46,6 +50,10 @@ ERROR:
 ====================================
 """
 
+    # =========================
+    # FILE LOG
+    # =========================
+
     with open(
         ERROR_LOG_FILE,
         "a",
@@ -55,6 +63,21 @@ ERROR:
         file.write(message)
 
     print(message)
+
+    # =========================
+    # SQLITE DATABASE
+    # =========================
+
+    try:
+
+        save_error(
+            source,
+            error
+        )
+
+    except Exception:
+
+        pass
 
     # =========================
     # TELEGRAM ALERT
