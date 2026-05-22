@@ -1,0 +1,274 @@
+[
+    {
+        "timestamp": "2026-05-20T20:16:33.516539",
+        "symbol": "ETH",
+        "score": 70,
+        "change_24h": 0.934111479252452,
+        "source": "Jarvis Live Scanner",
+        "reason": "INTERESSANTE"
+    },
+    {
+        "timestamp": "2026-05-20T20:16:33.518581",
+        "symbol": "SOL",
+        "score": 70,
+        "change_24h": 1.9536113060757494,
+        "source": "Jarvis Live Scanner",
+        "reason": "INTERESSANTE"
+    },
+    {
+        "timestamp": "2026-05-20T20:16:33.519044",
+        "symbol": "LINK",
+        "score": 70,
+        "change_24h": 1.2227352285373565,
+        "source": "Jarvis Live Scanner",
+        "reason": "INTERESSANTE"
+    },
+    {
+        "timestamp": "2026-05-20T20:16:33.519430",
+        "symbol": "AVAX",
+        "score": 70,
+        "change_24h": 1.8787865223655873,
+        "source": "Jarvis Live Scanner",
+        "reason": "INTERESSANTE"
+    },
+    {
+        "timestamp": "2026-05-20T20:16:33.519784",
+        "symbol": "RENDER",
+        "score": 85,
+        "change_24h": 4.1528664183650275,
+        "source": "Jarvis Live Scanner",
+        "reason": "BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:16:09.683441",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-20T21:53:06.147884",
+        "symbol": "SOL",
+        "score": 84,
+        "change_24h": 2.06,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "GOOD WATCH"
+    },
+    {
+        "timestamp": "2026-05-20T22:15:58.183282",
+        "symbol": "AI",
+        "score": 78,
+        "change_24h": 0.38,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "GOOD WATCH"
+    },
+    {
+        "timestamp": "2026-05-20T22:15:58.184067",
+        "symbol": "AI",
+        "score": 78,
+        "change_24h": 0.38,
+        "source": "Jarvis Final Signal Reporter",
+        "reason": "GOOD WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:16:09.684124",
+        "symbol": "PEPE",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:16:09.685287",
+        "symbol": "SOL",
+        "score": 92.0,
+        "change_24h": 1.85,
+        "source": "Jarvis Final Signal Reporter",
+        "reason": "STRONG BUY WATCH | SIDEWAYS"
+    },
+    {
+        "timestamp": "2026-05-21T22:16:20.005124",
+        "symbol": "PEPE",
+        "score": 86.0,
+        "change_24h": 0.0,
+        "source": "Jarvis Final Signal Reporter",
+        "reason": "STRONG BUY WATCH | SIDEWAYS"
+    },
+    {
+        "timestamp": "2026-05-21T22:45:33.008028",
+        "symbol": "SOL",
+        "score": 92,
+        "change_24h": 1.83,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:45:33.009645",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:45:33.011237",
+        "symbol": "SOL",
+        "score": 100,
+        "change_24h": 1.83,
+        "source": "Jarvis Priority Summary Reporter",
+        "reason": "🚨 EXTREME MOMENTUM"
+    },
+    {
+        "timestamp": "2026-05-21T22:45:33.012810",
+        "symbol": "SOL",
+        "score": 100,
+        "change_24h": 0.0,
+        "source": "Jarvis Priority Summary Reporter",
+        "reason": "🚨 EXTREME MOMENTUM"
+    },
+    {
+        "timestamp": "2026-05-21T22:50:54.430081",
+        "symbol": "SOL",
+        "score": 92,
+        "change_24h": 1.92,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:50:54.431426",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:51:04.118206",
+        "symbol": "SOL",
+        "score": 92,
+        "change_24h": 1.92,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:51:04.120078",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:52:03.101593",
+        "symbol": "SOL",
+        "score": 92,
+        "change_24h": 1.9,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:52:03.103323",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:52:13.168382",
+        "symbol": "SOL",
+        "score": 92,
+        "change_24h": 1.9,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:52:13.169755",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:54:30.340816",
+        "symbol": "SOL",
+        "score": 92,
+        "change_24h": 1.62,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:54:30.342207",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:57:19.702401",
+        "symbol": "SOL",
+        "score": 92,
+        "change_24h": 1.57,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:57:19.703957",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:59:12.089237",
+        "symbol": "SOL",
+        "score": 92,
+        "change_24h": 1.56,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T22:59:12.090884",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T23:15:45.579664",
+        "symbol": "SOL",
+        "score": 92,
+        "change_24h": 1.49,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T23:15:45.581384",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T23:33:49.025979",
+        "symbol": "SOL",
+        "score": 92,
+        "change_24h": 1.59,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-21T23:33:49.026900",
+        "symbol": "SOL",
+        "score": 86,
+        "change_24h": 0.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "ai_score": 1.0,
+    "volume": 1.08,
+    "liquidity": 1.0,
+    "momentum": 1.0,
+    "risk": 1.0,
+    "base_score": 1.08,
+    "momentum_1h": 1.0,
+    "momentum_6h": 1.0,
+    "momentum_24h": 1.0,
+    "fdv": 1.0,
+    "risk_penalty": 1.0,
+    "last_updated": "2026-05-21T23:37:14.618706"
+}

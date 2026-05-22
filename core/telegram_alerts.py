@@ -3,8 +3,8 @@
 import os
 import requests
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+BOT_TOKEN = "8969316010:AAEijoYi-IY65XKqMLzWwpNa5rEoeVUuvr0"
+CHAT_ID = "268925092"
 
 
 def telegram_ready():
@@ -13,7 +13,8 @@ def telegram_ready():
 
 def send_telegram_message(message):
     if not telegram_ready():
-        print("Telegram non configurato nel cloud.")
+        print("Telegram non configurato.")
+        print("Controlla TELEGRAM_BOT_TOKEN e TELEGRAM_CHAT_ID.")
         return None
 
     try:
@@ -60,12 +61,14 @@ def format_signal_message(signal):
 
 
 def send_top_signals(signals):
-    if len(signals) == 0:
+    if not signals:
+        print("Nessun segnale da inviare.")
         return
 
     for signal in signals[:3]:
         message = format_signal_message(signal)
-        send_telegram_message(message)
+        result = send_telegram_message(message)
+        print("Risultato invio segnale:", result)
 
 
 def send_trade_opened(trade):
@@ -91,7 +94,8 @@ def send_trade_opened(trade):
 {trade.get('stop_loss', 0)}%
 """
 
-    send_telegram_message(message)
+    result = send_telegram_message(message)
+    print("Risultato trade opened:", result)
 
 
 def send_trade_closed(trade):
@@ -117,7 +121,8 @@ def send_trade_closed(trade):
 {trade.get('duration_minutes', 0)} min
 """
 
-    send_telegram_message(message)
+    result = send_telegram_message(message)
+    print("Risultato trade closed:", result)
 
 
 def send_cloud_status(message):
@@ -127,8 +132,21 @@ def send_cloud_status(message):
 {message}
 """
 
-    send_telegram_message(final_message)
+    result = send_telegram_message(final_message)
+    print("Risultato cloud status:", result)
 
 
 if __name__ == "__main__":
-    send_cloud_status("Telegram cloud alerts online ✅")
+
+    test_signal = {
+        "symbol": "BTC",
+        "score": 87,
+        "change_24h": 4.2,
+        "source": "Jarvis AI Engine",
+        "reason": "Strong volume and bullish trend"
+    }
+
+    send_cloud_status("Jarvis Telegram system online ✅")
+    send_top_signals([test_signal])
+
+    print("Test Telegram completato.")

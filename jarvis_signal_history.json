@@ -1,0 +1,26 @@
+[
+    {
+        "timestamp": "2026-05-22T16:50:02.567548",
+        "symbol": "PEPE",
+        "score": 88,
+        "change_24h": 0.76,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "STRONG BUY WATCH"
+    },
+    {
+        "timestamp": "2026-05-22T16:50:02.569532",
+        "symbol": "SOL",
+        "score": 81,
+        "change_24h": 1.0,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "GOOD WATCH"
+    },
+    {
+        "timestamp": "2026-05-22T16:50:02.570143",
+        "symbol": "AI",
+        "score": 81,
+        "change_24h": 1.79,
+        "source": "Jarvis AI Signal Engine",
+        "reason": "GOOD WATCH"
+    }
+]

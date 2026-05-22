@@ -1,0 +1,26 @@
+[
+    {
+        "timestamp": "2026-05-20T23:00:27.225193",
+        "phase": "SIDEWAYS",
+        "reason": "Mercato laterale",
+        "btc_price": 77657,
+        "btc_24h": 0.90063,
+        "btc_7d": -2.39553
+    },
+    {
+        "timestamp": "2026-05-21T22:51:05.052793",
+        "phase": "SIDEWAYS",
+        "reason": "Mercato laterale",
+        "btc_price": 77705,
+        "btc_24h": 0.08957,
+        "btc_7d": -4.76205
+    },
+    {
+        "timestamp": "2026-05-21T22:52:14.231181",
+        "phase": "SIDEWAYS",
+        "reason": "Mercato laterale",
+        "btc_price": 77703,
+        "btc_24h": 0.08694,
+        "btc_7d": -4.76456
+    }
+]

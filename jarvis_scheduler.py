@@ -1,126 +1,155 @@
 # jarvis_scheduler.py
-# JARVIS AUTO SCHEDULER + DAILY REPORT
+# JARVIS AUTO SCHEDULER COMPATTO
 
 import time
 import datetime
 
-from unified_trading_engine import run_unified_engine
-from report_exporter import run_exporter
+from telegram_alerts import send_telegram_message
+from signal_reporter import run_signal_reporter
+from live_momentum_engine import scan_live_momentum
+from jarvis_health_check import build_health_report
 
-# =========================
-# SETTINGS
-# =========================
 
-INTERVAL_SECONDS = 300
+CYCLE_INTERVAL_SECONDS = 1800
+HEALTH_INTERVAL_SECONDS = 3600
 
-REPORT_HOUR = 23
-REPORT_MINUTE = 0
+last_cycle_run = 0
+last_health_run = 0
+is_running = False
 
-last_report_day = None
-
-# =========================
-# LOGGER
-# =========================
 
 def log(message):
-
-    timestamp = datetime.datetime.now().strftime(
-        "%Y-%m-%d %H:%M:%S"
-    )
-
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{timestamp}] {message}")
 
-# =========================
-# REPORT CHECK
-# =========================
 
-def should_generate_report():
+def should_run(last_run, interval):
+    return time.time() - last_run >= interval
 
-    global last_report_day
 
-    now = datetime.datetime.now()
+def build_compact_summary(signals, momentum, health_report=None):
+    message = f"""
+🤖 JARVIS AUTO SUMMARY
 
-    today = now.date()
+Time:
+{datetime.datetime.now().isoformat()}
 
-    if (
-        now.hour == REPORT_HOUR
-        and now.minute >= REPORT_MINUTE
-    ):
+Signals found:
+{len(signals)}
 
-        if last_report_day != today:
+Momentum found:
+{len(momentum)}
 
-            last_report_day = today
+"""
 
-            return True
+    if signals:
+        message += "\n🚀 SIGNALS:\n"
 
-    return False
+        for item in signals[:3]:
+            card = item.get("card", {})
+            priority = item.get("priority", {})
+            message += f"""
+- {card.get("symbol")} | {priority.get("priority_level")}
+  Score: {priority.get("priority_score")}
+  Chain: {card.get("chain")}
+"""
 
-# =========================
-# MAIN LOOP
-# =========================
+    if momentum:
+        message += "\n⚡ MOMENTUM:\n"
+
+        for item in momentum[:3]:
+            message += f"""
+- {item.get("symbol")} | Score: {item.get("score")}
+  1H: {item.get("change_1h")}%
+  24H: {item.get("change_24h")}%
+"""
+
+    if not signals and not momentum:
+        message += "\n📭 Nessun segnale forte adesso.\n"
+
+    if health_report:
+        message += "\n🩺 Health check eseguito.\n"
+
+    message += "\n⚠️ Non è consiglio finanziario."
+
+    return message
+
+
+def run_compact_cycle():
+    log("Avvio ciclo compatto Jarvis...")
+
+    signals = []
+    momentum = []
+    health_report = None
+
+    try:
+        signals = run_signal_reporter(send_telegram=False)
+    except Exception as e:
+        log(f"Errore signals: {e}")
+
+    try:
+        momentum = scan_live_momentum(send_telegram=False)
+    except Exception as e:
+        log(f"Errore momentum: {e}")
+
+    summary = build_compact_summary(signals, momentum, health_report)
+
+    send_telegram_message(summary)
+
+    log("Ciclo compatto completato.")
+
 
 def start_scheduler():
+    global last_cycle_run
+    global last_health_run
+    global is_running
 
-    log("JARVIS SCHEDULER AVVIATO")
+    log("JARVIS COMPACT SCHEDULER AVVIATO")
 
-    log(
-        f"Intervallo: "
-        f"{INTERVAL_SECONDS} secondi"
-    )
+    send_telegram_message(
+        """
+🤖 JARVIS COMPACT AUTO MODE ONLINE
 
-    log(
-        f"Daily report: "
-        f"{REPORT_HOUR}:"
-        f"{REPORT_MINUTE}"
+Invierò un solo report compatto per ciclo.
+"""
     )
 
     while True:
-
         try:
+            if should_run(last_cycle_run, CYCLE_INTERVAL_SECONDS):
+                if not is_running:
+                    is_running = True
+                    run_compact_cycle()
+                    last_cycle_run = time.time()
+                    is_running = False
+                else:
+                    log("Ciclo già in esecuzione, salto.")
 
-            log("Avvio ciclo Jarvis...")
-
-            run_unified_engine()
-
-            log("Ciclo completato.")
-
-            # =========================
-            # DAILY REPORT
-            # =========================
-
-            if should_generate_report():
-
-                log(
-                    "Generazione "
-                    "daily report..."
-                )
-
-                run_exporter()
-
-                log(
-                    "Daily report "
-                    "completato."
-                )
+            if should_run(last_health_run, HEALTH_INTERVAL_SECONDS):
+                try:
+                    health_report = build_health_report()
+                    print(health_report)
+                    last_health_run = time.time()
+                except Exception as e:
+                    log(f"Errore health: {e}")
 
         except Exception as e:
+            is_running = False
 
-            log(
-                f"ERRORE "
-                f"SCHEDULER: {e}"
+            send_telegram_message(
+                f"""
+❌ JARVIS SCHEDULER ERROR
+
+Errore:
+{str(e)}
+
+Time:
+{datetime.datetime.now().isoformat()}
+"""
             )
 
-        log(
-            "Attendo prossimo ciclo...\n"
-        )
+        time.sleep(10)
 
-        time.sleep(
-            INTERVAL_SECONDS
-        )
-
-# =========================
-# START
-# =========================
 
 if __name__ == "__main__":
-
     start_scheduler()

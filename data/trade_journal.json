@@ -1,0 +1,15 @@
+[
+    {
+        "timestamp": "2026-05-20T21:01:55.273047",
+        "symbol": "SOL",
+        "entry_price": 150.0,
+        "exit_price": 165.0,
+        "amount": 1.0,
+        "setup_type": "MOMENTUM",
+        "notes": "test",
+        "invested": 150.0,
+        "final_value": 165.0,
+        "pnl": 15.0,
+        "pnl_percent": 10.0
+    }
+]

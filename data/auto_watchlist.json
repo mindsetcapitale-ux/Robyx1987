@@ -1,0 +1,382 @@
+[
+    {
+        "id": "usd1-wlfi",
+        "symbol": "USD1",
+        "name": "USD1",
+        "rank": 23,
+        "price": 0.999585,
+        "market_cap": 4654943407.0,
+        "volume_24h": 1646294917.0,
+        "change_24h": 0.011938908527182249,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905293"
+    },
+    {
+        "id": "zcash",
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "rank": 13,
+        "price": 677.48,
+        "market_cap": 11291150427.0,
+        "volume_24h": 981588125.0,
+        "change_24h": 18.166868172950117,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905307"
+    },
+    {
+        "id": "hyperliquid",
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 11,
+        "price": 51.8,
+        "market_cap": 12353541282.0,
+        "volume_24h": 970513162.0,
+        "change_24h": 7.521082063892908,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905314"
+    },
+    {
+        "id": "tron",
+        "symbol": "TRX",
+        "name": "TRON",
+        "rank": 8,
+        "price": 0.359289,
+        "market_cap": 34074742082.0,
+        "volume_24h": 483063348.0,
+        "change_24h": 0.9842823338994426,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905334"
+    },
+    {
+        "id": "near",
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "rank": 41,
+        "price": 1.69,
+        "market_cap": 2194882159.0,
+        "volume_24h": 290418226.0,
+        "change_24h": 3.787589357345194,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905415"
+    },
+    {
+        "id": "ondo-finance",
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "rank": 47,
+        "price": 0.399296,
+        "market_cap": 1943559543.0,
+        "volume_24h": 279994689.0,
+        "change_24h": 9.641642208324225,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905428"
+    },
+    {
+        "id": "monero",
+        "symbol": "XMR",
+        "name": "Monero",
+        "rank": 18,
+        "price": 398.79,
+        "market_cap": 7354605068.0,
+        "volume_24h": 150330903.0,
+        "change_24h": 1.9378102320346757,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905484"
+    },
+    {
+        "id": "ripple-usd",
+        "symbol": "RLUSD",
+        "name": "Ripple USD",
+        "rank": 48,
+        "price": 1.0,
+        "market_cap": 1736954467.0,
+        "volume_24h": 124119577.0,
+        "change_24h": 0.004534183884335944,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905524"
+    },
+    {
+        "id": "aster-2",
+        "symbol": "ASTER",
+        "name": "Aster",
+        "rank": 50,
+        "price": 0.692911,
+        "market_cap": 1787294746.0,
+        "volume_24h": 121039918.0,
+        "change_24h": 6.37513972281887,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905533"
+    },
+    {
+        "id": "htx-dao",
+        "symbol": "HTX",
+        "name": "HTX DAO",
+        "rank": 49,
+        "price": 2e-06,
+        "market_cap": 1810573575.0,
+        "volume_24h": 95265745.0,
+        "change_24h": 2.2090713710873033,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905555"
+    },
+    {
+        "id": "mantle",
+        "symbol": "MNT",
+        "name": "Mantle",
+        "rank": 42,
+        "price": 0.656679,
+        "market_cap": 2168856541.0,
+        "volume_24h": 24733393.0,
+        "change_24h": 4.7943529145170585,
+        "score": 100,
+        "reasons": [
+            "top 50",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.907116"
+    },
+    {
+        "id": "united-stables",
+        "symbol": "U",
+        "name": "United Stables",
+        "rank": 68,
+        "price": 0.999692,
+        "market_cap": 1027287983.0,
+        "volume_24h": 276839220.0,
+        "change_24h": -0.016075397248950588,
+        "score": 90,
+        "reasons": [
+            "rank buono",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905435"
+    },
+    {
+        "id": "dash",
+        "symbol": "DASH",
+        "name": "Dash",
+        "rank": 90,
+        "price": 49.15,
+        "market_cap": 624199670.0,
+        "volume_24h": 195531320.0,
+        "change_24h": 15.383436707613438,
+        "score": 90,
+        "reasons": [
+            "rank buono",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905460"
+    },
+    {
+        "id": "venice-token",
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "rank": 81,
+        "price": 17.01,
+        "market_cap": 785534922.0,
+        "volume_24h": 104148617.0,
+        "change_24h": 0.7040412494427298,
+        "score": 90,
+        "reasons": [
+            "rank buono",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905541"
+    },
+    {
+        "id": "humanity",
+        "symbol": "H",
+        "name": "Humanity",
+        "rank": 109,
+        "price": 0.265738,
+        "market_cap": 484971657.0,
+        "volume_24h": 100203002.0,
+        "change_24h": 5.916318327989311,
+        "score": 90,
+        "reasons": [
+            "rank buono",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905548"
+    },
+    {
+        "id": "lighter",
+        "symbol": "LIT",
+        "name": "Lighter",
+        "rank": 149,
+        "price": 1.22,
+        "market_cap": 304319801.0,
+        "volume_24h": 79561688.0,
+        "change_24h": 13.763001288524288,
+        "score": 90,
+        "reasons": [
+            "rank buono",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905599"
+    },
+    {
+        "id": "chiliz",
+        "symbol": "CHZ",
+        "name": "Chiliz",
+        "rank": 112,
+        "price": 0.04530528,
+        "market_cap": 469407096.0,
+        "volume_24h": 77180284.0,
+        "change_24h": -3.554262362034461,
+        "score": 90,
+        "reasons": [
+            "rank buono",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905605"
+    },
+    {
+        "id": "kite-2",
+        "symbol": "KITE",
+        "name": "Kite",
+        "rank": 100,
+        "price": 0.234327,
+        "market_cap": 532442567.0,
+        "volume_24h": 62092438.0,
+        "change_24h": -2.0649040441972044,
+        "score": 90,
+        "reasons": [
+            "rank buono",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905644"
+    },
+    {
+        "id": "origintrail",
+        "symbol": "TRAC",
+        "name": "OriginTrail",
+        "rank": 195,
+        "price": 0.416416,
+        "market_cap": 186740826.0,
+        "volume_24h": 59214048.0,
+        "change_24h": 13.117492668720812,
+        "score": 90,
+        "reasons": [
+            "rank buono",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.905683"
+    },
+    {
+        "id": "bianrensheng",
+        "symbol": "币安人生",
+        "name": "币安人生 (BinanceLife)",
+        "rank": 114,
+        "price": 0.437562,
+        "market_cap": 437111708.0,
+        "volume_24h": 54210005.0,
+        "change_24h": 4.662104210522771,
+        "score": 90,
+        "reasons": [
+            "rank buono",
+            "market cap solido",
+            "volume alto",
+            "movimento 24h sano",
+            "trend 7d positivo"
+        ],
+        "updated_at": "2026-05-20T22:57:19.906773"
+    }
+]

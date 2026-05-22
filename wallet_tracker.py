@@ -1,171 +1,95 @@
 # wallet_tracker.py
-# JARVIS WHALE TRACKER REALE
 
 import requests
-import datetime
+from telegram_alerts import send_telegram_message
 
-from database_manager import aggiungi_wallet_activity
 
-TRACKED_WALLETS = [
+RPC_URL = "https://eth.llamarpc.com"
 
-    {
-        "name": "Wallet Bot 1",
-        "address": "0x26ebb8213fb8d66156f1af8908d43f7e3e367c1d"
-    },
 
-    {
-        "name": "Wallet Bot 2",
-        "address": "0xabba7bef6dffba87d66e6c3d2d612b1a57df2303"
+def is_valid_wallet(address):
+    return address.startswith("0x") and len(address) == 42
+
+
+def rpc_call(method, params):
+    payload = {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": method,
+        "params": params
     }
 
-]
+    response = requests.post(RPC_URL, json=payload, timeout=20)
+    return response.json()
 
-# =========================
-# ANALYZE TX
-# =========================
 
-def classify_whale_activity(eth_value):
+def get_eth_balance(address):
+    try:
+        data = rpc_call("eth_getBalance", [address, "latest"])
 
-    if eth_value >= 50:
-        return "🔥 HUGE WHALE MOVE"
+        if "result" not in data:
+            return None
 
-    if eth_value >= 10:
-        return "🐋 WHALE ACTIVITY"
+        wei_balance = int(data["result"], 16)
+        eth_balance = wei_balance / 10**18
 
-    if eth_value >= 1:
-        return "⚠️ MEDIUM MOVE"
+        return eth_balance
 
-    return "👀 SMALL MOVE"
+    except Exception as e:
+        print("Errore balance:", e)
+        return None
 
-# =========================
-# WALLET TRACKER
-# =========================
 
-def controlla_wallets():
+def build_wallet_report(address):
+    balance = get_eth_balance(address)
 
-    risultati = []
+    if balance is None:
+        return f"""
+❌ JARVIS WALLET TRACKER
 
-    for item in TRACKED_WALLETS:
+Wallet:
+{address}
 
-        wallet = item["address"]
-        name = item["name"]
+Errore:
+Impossibile leggere il saldo.
+"""
 
-        try:
+    return f"""
+👛 JARVIS WALLET TRACKER
 
-            response = requests.get(
-                "https://api.etherscan.io/api",
-                params={
-                    "module": "account",
-                    "action": "txlist",
-                    "address": wallet,
-                    "sort": "desc"
-                },
-                timeout=12
-            )
+Wallet:
+{address}
 
-            data = response.json()
+ETH Balance:
+{balance} ETH
 
-            txs = data.get("result", [])
+Nota:
+Versione senza API key. Legge il saldo ETH via RPC pubblico.
+"""
 
-            if not isinstance(txs, list) or len(txs) == 0:
 
-                risultati.append({
+def scan_wallet(address, send_telegram=True):
+    if not is_valid_wallet(address):
+        print("Wallet non valido.")
+        return
 
-                    "wallet": wallet,
-                    "name": name,
-                    "eth": 0,
-                    "status": "NO DATA",
-                    "time": "-"
+    report = build_wallet_report(address)
 
-                })
+    print(report)
 
-                continue
+    if send_telegram:
+        send_telegram_message(report)
 
-            last_tx = txs[0]
 
-            eth_value = int(
-                last_tx.get("value", 0)
-            ) / 1e18
+def main():
+    print("\n==============================")
+    print(" JARVIS WALLET TRACKER")
+    print("==============================\n")
 
-            timestamp = last_tx.get(
-                "timeStamp",
-                "0"
-            )
+    address = input("Inserisci wallet address 0x: ").strip()
 
-            try:
+    scan_wallet(address, send_telegram=True)
 
-                time_readable = datetime.datetime.fromtimestamp(
-                    int(timestamp)
-                ).strftime("%Y-%m-%d %H:%M:%S")
-
-            except:
-
-                time_readable = "-"
-
-            status = classify_whale_activity(
-                eth_value
-            )
-
-            result = {
-
-                "wallet": wallet,
-                "name": name,
-                "eth": round(eth_value, 4),
-                "status": status,
-                "time": time_readable
-
-            }
-
-            risultati.append(
-                result
-            )
-
-            if eth_value >= 1:
-
-                aggiungi_wallet_activity({
-
-                    "wallet": wallet,
-                    "name": name,
-                    "eth": round(eth_value, 4),
-                    "status": status,
-                    "time": time_readable
-
-                })
-
-        except Exception as e:
-
-            risultati.append({
-
-                "wallet": wallet,
-                "name": name,
-                "eth": 0,
-                "status": f"ERROR: {e}",
-                "time": "-"
-
-            })
-
-    return risultati
-
-# =========================
-# TEST
-# =========================
 
 if __name__ == "__main__":
-
-    dati = controlla_wallets()
-
-    print("\n=== JARVIS WHALE TRACKER ===\n")
-
-    for w in dati:
-
-        print(
-            w["name"],
-            "|",
-            w["wallet"],
-            "| ETH:",
-            w["eth"],
-            "|",
-            w["status"],
-            "|",
-            w["time"]
-        )
+    main()

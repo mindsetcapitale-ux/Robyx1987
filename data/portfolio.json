@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "BTC",
+        "coin_id": "bitcoin",
+        "amount": 0.0,
+        "entry_price": 0.0
+    },
+    {
+        "symbol": "ETH",
+        "coin_id": "ethereum",
+        "amount": 0.0,
+        "entry_price": 0.0
+    },
+    {
+        "symbol": "SOL",
+        "coin_id": "3",
+        "amount": 10.0,
+        "entry_price": 5.0
+    }
+]
