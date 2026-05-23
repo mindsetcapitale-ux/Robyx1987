@@ -128,38 +128,40 @@ CoinGecko
 
 
 def send_scan():
-    coins = [
-        ("BTC", "bitcoin"),
-        ("ETH", "ethereum"),
-        ("SOL", "solana"),
-    ]
+    try:
+        url = "https://api.coingecko.com/api/v3/simple/price"
 
-    results = []
+        params = {
+            "ids": "bitcoin,ethereum,solana",
+            "vs_currencies": "usd",
+            "include_24hr_change": "true"
+        }
 
-    for symbol_name, coin_id in coins:
-        try:
-            url = "https://api.coingecko.com/api/v3/simple/price"
+        response = requests.get(
+            url,
+            params=params,
+            timeout=20
+        )
 
-            params = {
-                "ids": coin_id,
-                "vs_currencies": "usd",
-                "include_24hr_change": "true"
-            }
+        data = response.json()
 
-            response = requests.get(
-                url,
-                params=params,
-                timeout=20
-            )
+        coins = [
+            ("BTC", "bitcoin"),
+            ("ETH", "ethereum"),
+            ("SOL", "solana"),
+        ]
 
-            data = response.json()
+        results = []
 
-            if coin_id not in data:
+        for symbol_name, coin_id in coins:
+            coin_data = data.get(coin_id)
+
+            if not coin_data:
                 results.append(f"❌ {symbol_name}: nessun dato")
                 continue
 
-            price = data[coin_id].get("usd", "N/A")
-            change_24h = data[coin_id].get("usd_24h_change", "N/A")
+            price = coin_data.get("usd", "N/A")
+            change_24h = coin_data.get("usd_24h_change", "N/A")
 
             if isinstance(change_24h, (int, float)):
                 change_24h = round(change_24h, 2)
@@ -167,19 +169,23 @@ def send_scan():
             results.append(
                 f"""
 💎 {symbol_name}
-Price: ${price}
-24H: {change_24h}%
+
+💵 Price:
+${price}
+
+📈 24H:
+{change_24h}%
 """
             )
 
-            time.sleep(1)
+        send_telegram_message(
+            "🌍 JARVIS MARKET SCAN\n\n" + "\n".join(results)
+        )
 
-        except Exception as e:
-            results.append(f"❌ {symbol_name}: {e}")
-
-    send_telegram_message(
-        "🌍 JARVIS MARKET SCAN\n\n" + "\n".join(results)
-    )
+    except Exception as e:
+        send_telegram_message(
+            f"❌ Errore Market Scan\n\n{str(e)}"
+        )
 
 
 def send_history():
