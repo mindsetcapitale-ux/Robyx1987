@@ -30,6 +30,8 @@ BASE_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 LAST_UPDATE_ID = None
 RUNNING_TASKS = {}
 
+BINANCE_24H_URL = "https://api.binance.com/api/v3/ticker/24hr"
+
 
 def run_background_task(task_name, function):
     if RUNNING_TASKS.get(task_name):
@@ -71,50 +73,51 @@ def get_updates():
         return []
 
 
-def send_analysis(symbol_name, coin_id):
+def get_binance_ticker(symbol):
+    response = requests.get(
+        BINANCE_24H_URL,
+        params={"symbol": symbol},
+        timeout=20
+    )
+
+    data = response.json()
+
+    if "lastPrice" not in data:
+        raise Exception(f"Nessun dato Binance per {symbol}: {data}")
+
+    return data
+
+
+def send_analysis(symbol_name, binance_symbol):
     try:
-        url = "https://api.coingecko.com/api/v3/simple/price"
+        data = get_binance_ticker(binance_symbol)
 
-        params = {
-            "ids": coin_id,
-            "vs_currencies": "usd",
-            "include_24hr_change": "true"
-        }
-
-        response = requests.get(
-            url,
-            params=params,
-            timeout=20
-        )
-
-        data = response.json()
-
-        if coin_id not in data:
-            send_telegram_message(
-                f"❌ Nessun dato trovato per {symbol_name}"
-            )
-            return
-
-        price = data[coin_id].get("usd", "N/A")
-        change_24h = data[coin_id].get(
-            "usd_24h_change",
-            "N/A"
-        )
-
-        if isinstance(change_24h, (int, float)):
-            change_24h = round(change_24h, 2)
+        price = float(data.get("lastPrice", 0))
+        change_24h = float(data.get("priceChangePercent", 0))
+        high_24h = float(data.get("highPrice", 0))
+        low_24h = float(data.get("lowPrice", 0))
+        volume = float(data.get("volume", 0))
 
         message = f"""
 📊 {symbol_name} ANALYSIS
 
 💵 Price:
-${price}
+${round(price, 4)}
 
 📈 24H:
-{change_24h}%
+{round(change_24h, 2)}%
+
+🔼 High 24H:
+${round(high_24h, 4)}
+
+🔽 Low 24H:
+${round(low_24h, 4)}
+
+📊 Volume:
+{round(volume, 2)}
 
 Source:
-CoinGecko
+Binance
 
 ⚠️ Analisi rapida mercato.
 """
@@ -129,54 +132,37 @@ CoinGecko
 
 def send_scan():
     try:
-        url = "https://api.coingecko.com/api/v3/simple/price"
-
-        params = {
-            "ids": "bitcoin,ethereum,solana",
-            "vs_currencies": "usd",
-            "include_24hr_change": "true"
-        }
-
-        response = requests.get(
-            url,
-            params=params,
-            timeout=20
-        )
-
-        data = response.json()
-
         coins = [
-            ("BTC", "bitcoin"),
-            ("ETH", "ethereum"),
-            ("SOL", "solana"),
+            ("BTC", "BTCUSDT"),
+            ("ETH", "ETHUSDT"),
+            ("SOL", "SOLUSDT"),
         ]
 
         results = []
 
-        for symbol_name, coin_id in coins:
-            coin_data = data.get(coin_id)
+        for symbol_name, binance_symbol in coins:
+            try:
+                data = get_binance_ticker(binance_symbol)
 
-            if not coin_data:
-                results.append(f"❌ {symbol_name}: nessun dato")
-                continue
+                price = float(data.get("lastPrice", 0))
+                change_24h = float(data.get("priceChangePercent", 0))
 
-            price = coin_data.get("usd", "N/A")
-            change_24h = coin_data.get("usd_24h_change", "N/A")
-
-            if isinstance(change_24h, (int, float)):
-                change_24h = round(change_24h, 2)
-
-            results.append(
-                f"""
+                results.append(
+                    f"""
 💎 {symbol_name}
 
 💵 Price:
-${price}
+${round(price, 4)}
 
 📈 24H:
-{change_24h}%
+{round(change_24h, 2)}%
 """
-            )
+                )
+
+                time.sleep(1)
+
+            except Exception as e:
+                results.append(f"❌ {symbol_name}: {str(e)}")
 
         send_telegram_message(
             "🌍 JARVIS MARKET SCAN\n\n" + "\n".join(results)
@@ -348,19 +334,19 @@ def handle_command(chat_id, text):
     elif command == "/btc":
         run_background_task(
             "BTC Analysis",
-            lambda: send_analysis("BTC", "bitcoin")
+            lambda: send_analysis("BTC", "BTCUSDT")
         )
 
     elif command == "/eth":
         run_background_task(
             "ETH Analysis",
-            lambda: send_analysis("ETH", "ethereum")
+            lambda: send_analysis("ETH", "ETHUSDT")
         )
 
     elif command == "/sol":
         run_background_task(
             "SOL Analysis",
-            lambda: send_analysis("SOL", "solana")
+            lambda: send_analysis("SOL", "SOLUSDT")
         )
 
     else:
