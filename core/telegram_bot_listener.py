@@ -16,7 +16,6 @@ import time
 import threading
 import requests
 
-from engines.unified_trading_engine import UnifiedTradingEngine
 from engines.early_gem_detector import scan_once
 from engines.live_momentum_engine import scan_live_momentum
 
@@ -29,8 +28,6 @@ from core.adaptive_learning_engine import build_learning_report
 
 BASE_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 LAST_UPDATE_ID = None
-
-engine = UnifiedTradingEngine()
 RUNNING_TASKS = {}
 
 
@@ -76,34 +73,58 @@ def get_updates():
 
 def send_analysis(symbol_name, coin_id):
     try:
-        report = engine.analyze_coin(coin_id)
+        url = "https://api.coingecko.com/api/v3/simple/price"
 
-        if report.get("status") != "ok":
-            send_telegram_message(f"❌ Errore {symbol_name}\n\n{report.get('message')}")
+        params = {
+            "ids": coin_id,
+            "vs_currencies": "usd",
+            "include_24hr_change": "true"
+        }
+
+        response = requests.get(
+            url,
+            params=params,
+            timeout=20
+        )
+
+        data = response.json()
+
+        if coin_id not in data:
+            send_telegram_message(
+                f"❌ Nessun dato trovato per {symbol_name}"
+            )
             return
 
-        token = report.get("token", {})
-        analysis = report.get("analysis", {})
+        price = data[coin_id].get("usd", "N/A")
+        change_24h = data[coin_id].get(
+            "usd_24h_change",
+            "N/A"
+        )
+
+        if isinstance(change_24h, (int, float)):
+            change_24h = round(change_24h, 2)
 
         message = f"""
 📊 {symbol_name} ANALYSIS
 
 💵 Price:
-${token.get("price", "N/A")}
+${price}
 
 📈 24H:
-{token.get("change_24h", "N/A")}%
+{change_24h}%
 
-🧠 AI Score:
-{analysis.get("score", "N/A")}
+Source:
+CoinGecko
 
-🚨 Signal:
-{analysis.get("signal", "N/A")}
+⚠️ Analisi rapida mercato.
 """
+
         send_telegram_message(message)
 
     except Exception as e:
-        send_telegram_message(f"❌ Errore comando {symbol_name}\n\n{str(e)}")
+        send_telegram_message(
+            f"❌ Errore comando {symbol_name}\n\n{str(e)}"
+        )
 
 
 def send_scan():
@@ -117,21 +138,37 @@ def send_scan():
 
     for symbol_name, coin_id in coins:
         try:
-            report = engine.analyze_coin(coin_id)
+            url = "https://api.coingecko.com/api/v3/simple/price"
 
-            if report.get("status") != "ok":
-                results.append(f"❌ {symbol_name}: errore dati")
+            params = {
+                "ids": coin_id,
+                "vs_currencies": "usd",
+                "include_24hr_change": "true"
+            }
+
+            response = requests.get(
+                url,
+                params=params,
+                timeout=20
+            )
+
+            data = response.json()
+
+            if coin_id not in data:
+                results.append(f"❌ {symbol_name}: nessun dato")
                 continue
 
-            token = report.get("token", {})
-            analysis = report.get("analysis", {})
+            price = data[coin_id].get("usd", "N/A")
+            change_24h = data[coin_id].get("usd_24h_change", "N/A")
+
+            if isinstance(change_24h, (int, float)):
+                change_24h = round(change_24h, 2)
 
             results.append(
                 f"""
 💎 {symbol_name}
-Score: {analysis.get("score")}
-24H: {token.get("change_24h")}%
-Signal: {analysis.get("signal")}
+Price: ${price}
+24H: {change_24h}%
 """
             )
 
@@ -140,7 +177,9 @@ Signal: {analysis.get("signal")}
         except Exception as e:
             results.append(f"❌ {symbol_name}: {e}")
 
-    send_telegram_message("🌍 JARVIS MARKET SCAN\n\n" + "\n".join(results))
+    send_telegram_message(
+        "🌍 JARVIS MARKET SCAN\n\n" + "\n".join(results)
+    )
 
 
 def send_history():
@@ -163,7 +202,9 @@ Time: {signal.get("timestamp")}
 """
         )
 
-    send_telegram_message("📚 JARVIS SIGNAL HISTORY\n\n" + "\n".join(rows))
+    send_telegram_message(
+        "📚 JARVIS SIGNAL HISTORY\n\n" + "\n".join(rows)
+    )
 
 
 def send_gems():
@@ -226,10 +267,6 @@ def handle_command(chat_id, text):
             """
 🤖 JARVIS AI ONLINE
 
-━━━━━━━━━━━━━━━━━━
-⚡ CRYPTO AI SYSTEM
-━━━━━━━━━━━━━━━━━━
-
 /signals - Smart AI signals
 /momentum - Live momentum scanner
 /learn - Adaptive learning report
@@ -249,45 +286,81 @@ def handle_command(chat_id, text):
         )
 
     elif command == "/status":
-        active = [name for name, running in RUNNING_TASKS.items() if running]
+        active = [
+            name for name, running in RUNNING_TASKS.items()
+            if running
+        ]
 
         if active:
-            send_telegram_message("🟢 JARVIS OPERATIVO\n\nTask attivi:\n" + "\n".join(active))
+            send_telegram_message(
+                "🟢 JARVIS OPERATIVO\n\nTask attivi:\n" + "\n".join(active)
+            )
         else:
-            send_telegram_message("🟢 JARVIS OPERATIVO\n\n✅ Nessun task attivo.")
+            send_telegram_message(
+                "🟢 JARVIS OPERATIVO\n\n✅ Nessun task attivo."
+            )
 
     elif command == "/signals":
-        run_background_task("Smart Signals", lambda: run_signal_reporter(send_telegram=True))
+        run_background_task(
+            "Smart Signals",
+            lambda: run_signal_reporter(send_telegram=True)
+        )
 
     elif command == "/momentum":
-        run_background_task("Live Momentum", send_momentum)
+        run_background_task(
+            "Live Momentum",
+            send_momentum
+        )
 
     elif command == "/learn":
-        run_background_task("Adaptive Learning", lambda: send_telegram_message(build_learning_report()))
+        run_background_task(
+            "Adaptive Learning",
+            lambda: send_telegram_message(build_learning_report())
+        )
 
     elif command == "/history":
         send_history()
 
     elif command == "/scan":
-        run_background_task("Market Scan", send_scan)
+        run_background_task(
+            "Market Scan",
+            send_scan
+        )
 
     elif command == "/gems":
-        run_background_task("Early Gems", send_gems)
+        run_background_task(
+            "Early Gems",
+            send_gems
+        )
 
     elif command == "/ai":
-        run_background_task("AI Signal Engine", lambda: run_ai_signal_engine(send_telegram=True))
+        run_background_task(
+            "AI Signal Engine",
+            lambda: run_ai_signal_engine(send_telegram=True)
+        )
 
     elif command == "/btc":
-        run_background_task("BTC Analysis", lambda: send_analysis("BTC", "bitcoin"))
+        run_background_task(
+            "BTC Analysis",
+            lambda: send_analysis("BTC", "bitcoin")
+        )
 
     elif command == "/eth":
-        run_background_task("ETH Analysis", lambda: send_analysis("ETH", "ethereum"))
+        run_background_task(
+            "ETH Analysis",
+            lambda: send_analysis("ETH", "ethereum")
+        )
 
     elif command == "/sol":
-        run_background_task("SOL Analysis", lambda: send_analysis("SOL", "solana"))
+        run_background_task(
+            "SOL Analysis",
+            lambda: send_analysis("SOL", "solana")
+        )
 
     else:
-        send_telegram_message("❌ Comando non riconosciuto.\n\nUsa /start")
+        send_telegram_message(
+            "❌ Comando non riconosciuto.\n\nUsa /start"
+        )
 
 
 def main():
